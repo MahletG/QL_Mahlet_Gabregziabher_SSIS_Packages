@@ -105,4 +105,26 @@
         SSIS:Name="DataType">3</SSIS:Property>
     </SSIS:Properties>
   </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="ParODataSource_Password">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{ee7fa4c7-c99f-454a-bfc4-ff689775c47f}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">1</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value"
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAACAAAAAAAQZgAAAAEAACAAAAC3ZxHmS36gb3GPO9N/BJ+Mv3G3WX2hOXKiKrcqZjsZDgAAAAAOgAAAAAIAACAAAAB/PQHVybbStcnsTqvd+/zBMnypz+irWIu3y3+2fcPar4AAAADoxtGKkSEkMuOc3YV1yn4XViKMrAJvGtShgF++lctoUDj9xDmuI5kxnhsOIHigHM2I2Gdpn8RmBnt3uKUeyZEwctuENXzBCPnGYiQ30Rut0ipcfQn0omlVw2m8N6bxnbMukD4+LuLVFEHgafXl4MOJ4/BeWAtc8JNXIoSF443E9EAAAAA7NmV+nTB5JggAvyuaNzu44PvDR1QjEtNPDr5ab2dH1pnqSdhBgbI5n933oUdjtMwCp+8tW9w882r4XYafZ38S</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
 </SSIS:Parameters>
