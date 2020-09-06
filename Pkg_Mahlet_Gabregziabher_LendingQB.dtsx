@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Mahlet_Gabregziabher_LendingQB"
   DTS:PackageType="5"
-  DTS:VersionBuild="123"
-  DTS:VersionGUID="{1757B6C8-B7C8-4CEE-AE48-C2BA7A727666}">
+  DTS:VersionBuild="124"
+  DTS:VersionGUID="{3E980BE8-F121-411E-B4D5-125B251DB7E4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -65,7 +65,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varBody">
       <DTS:VariableValue
-        DTS:DataType="7">9/5/2020 10:19:57 PM</DTS:VariableValue>
+        DTS:DataType="7">9/5/2020 11:45:20 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -158,7 +158,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">9/5/2020 10:19:57 PM</DTS:VariableValue>
+        DTS:DataType="7">9/5/2020 11:45:20 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -25854,6 +25854,11 @@ where [refTable].[MarketSourceCode] = ?</property>
               name="BorrFirstNameorLastName_NotTest"
               startId="Package\DFT__SharePoint_OData\CS_NoTest.Outputs[BorrFirstNameorLastName_NotTest]" />
             <path
+              refId="Package\DFT__SharePoint_OData.Paths[Conditional Split Input]"
+              endId="Package\DFT__SharePoint_OData\CS_NoTest.Inputs[Conditional Split Input]"
+              name="Conditional Split Input"
+              startId="Package\DFT__SharePoint_OData\OD_LendingQB.Outputs[Output]" />
+            <path
               refId="Package\DFT__SharePoint_OData.Paths[Data Conversion Output]"
               endId="Package\DFT__SharePoint_OData\DC_String_DT_STR.Inputs[Data Conversion Input]"
               name="Data Conversion Output"
@@ -25888,11 +25893,6 @@ where [refTable].[MarketSourceCode] = ?</property>
               endId="Package\DFT__SharePoint_OData\DC_DT_WSTR_NUMERIC.Inputs[Data Conversion Input]"
               name="Multicast Output 1"
               startId="Package\DFT__SharePoint_OData\Multicast_OutputRows.Outputs[Multicast Output 1]" />
-            <path
-              refId="Package\DFT__SharePoint_OData.Paths[Output]"
-              endId="Package\DFT__SharePoint_OData\CS_NoTest.Inputs[Conditional Split Input]"
-              name="Output"
-              startId="Package\DFT__SharePoint_OData\OD_LendingQB.Outputs[Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -25913,6 +25913,36 @@ where [refTable].[MarketSourceCode] = ?</property>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FB4495C5-B7A9-4469-8EB9-3214CAD6A7AA}"
           SQLTask:SqlStatementSource="Delete from dbo.Stg_Mahlet_Gabregziabher_QL" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\EST_MaxModifiedDate"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{EDB48E57-4948-4B53-B5FF-EDD4BBE9E3E0}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="EST_MaxModifiedDate"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{FB4495C5-B7A9-4469-8EB9-3214CAD6A7AA}"
+          SQLTask:SqlStatementSource="SELECT MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;    FROM  [dbo].[Stg_Mahlet_Gabregziabher_QL]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="NewParameterName"
+            SQLTask:DtsVariableName="User::varMaxModifiedDate"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="134"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="NewParameterName"
+            SQLTask:DtsVariableName="User::varLastModifiedDate"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="134"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -25976,36 +26006,6 @@ where [refTable].[MarketSourceCode] = ?</property>
         </SQLTask:SqlTaskData>
       </DTS:ObjectData>
     </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\MaxModifiedDate"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{EDB48E57-4948-4B53-B5FF-EDD4BBE9E3E0}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="MaxModifiedDate"
-      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{FB4495C5-B7A9-4469-8EB9-3214CAD6A7AA}"
-          SQLTask:SqlStatementSource="Select SourceName, Max(LastModifiedDate) as MaxModifiedDate from Stg_Yafet_Bekele_ql where Sourcename=? Group by SourceName&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ParameterBinding
-            SQLTask:ParameterName="NewParameterName"
-            SQLTask:DtsVariableName="User::varMaxModifiedDate"
-            SQLTask:ParameterDirection="Input"
-            SQLTask:DataType="134"
-            SQLTask:ParameterSize="-1" />
-          <SQLTask:ParameterBinding
-            SQLTask:ParameterName="NewParameterName"
-            SQLTask:DtsVariableName="User::varLastModifiedDate"
-            SQLTask:ParameterDirection="Input"
-            SQLTask:DataType="134"
-            SQLTask:ParameterSize="-1" />
-        </SQLTask:SqlTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -26019,19 +26019,19 @@ where [refTable].[MarketSourceCode] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{544D5BA7-3C51-4D39-9B2B-45957C121EDD}"
+      DTS:DTSID="{C53ACC12-A0AE-4C76-BBDD-A2E6ECB5104F}"
       DTS:From="Package\DFT__SharePoint_OData"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\EST_RunLog" />
+      DTS:To="Package\EST_MaxModifiedDate" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
-      DTS:DTSID="{FDC64DE5-7342-4C50-AFB4-8323AF016001}"
-      DTS:From="Package\ESQLT_DeleteStgTable"
+      DTS:DTSID="{CAD3CA5D-6CDB-41B7-9503-8E1E6873D10E}"
+      DTS:From="Package\EST_MaxModifiedDate"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
-      DTS:To="Package\MaxModifiedDate" />
+      DTS:To="Package\EST_RunLog" />
   </DTS:PrecedenceConstraints>
   <DTS:EventHandlers>
     <DTS:EventHandler
@@ -26169,6 +26169,220 @@ where [refTable].[MarketSourceCode] = ?</property>
               Language="CSharp"
               ReadOnlyVariables="System::PackageName,User::varFromEmail,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail"
               ReadWriteVariables="System::ErrorCode,System::ErrorDescription,User::varTimeStamp">
+              <ProjectItem
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+              <ProjectItem
+                Name="Properties\Resources.resx"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
+              <ProjectItem
+                Name="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{092F4E10-E2BF-4FE6-BF88-C29F70A55593}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_d9dff51c1cec4909b7121b440cd5f94b</RootNamespace>
+    <AssemblyName>ST_d9dff51c1cec4909b7121b440cd5f94b</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -26316,124 +26530,25 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b
 	}
 }]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Resources.resx"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-</root>]]></ProjectItem>
+                Name="Project"
+                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:DisplayName>
+    <msb:ProjectId>{6B6CC9A0-EE56-47F0-8218-5F6595D62513}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -26464,112 +26579,6 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b.Properties {
     }
 }]]></ProjectItem>
               <ProjectItem
-                Name="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{092F4E10-E2BF-4FE6-BF88-C29F70A55593}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_d9dff51c1cec4909b7121b440cd5f94b</RootNamespace>
-    <AssemblyName>ST_d9dff51c1cec4909b7121b440cd5f94b</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
-              <ProjectItem
-                Name="Project"
-                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:DisplayName>
-    <msb:ProjectId>{6B6CC9A0-EE56-47F0-8218-5F6595D62513}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="ScriptMain.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
-              <ProjectItem
                 Name="Properties\AssemblyInfo.cs"
                 Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -26599,15 +26608,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -26843,49 +26843,49 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="196.666666666667,42.6666666666667"
           Id="Package\DFT__SharePoint_OData"
-          TopLeft="69.2499990500511,143.94999752432" />
+          TopLeft="221.749996777624,137.449997640549" />
         <NodeLayout
           Size="288,42.6666666666667"
           Id="Package\DFT_MortgageInsuranceCompanyCrossWalk"
-          TopLeft="474.874993005768,63.3499989655617" />
+          TopLeft="501.124992614612,66.5999989074471" />
         <NodeLayout
           Size="188,42.6666666666667"
           Id="Package\ESQLT_DeleteStgTable"
-          TopLeft="17.3749998230491,54.2499991282819" />
+          TopLeft="124.249998230487,56.1999990934131" />
         <NodeLayout
           Size="139.333333333334,42.6666666666667"
           Id="Package\EST_RunLog"
-          TopLeft="169.87499755062,220.649996152819" />
+          TopLeft="249.24999636784,279.149995106758" />
         <NodeLayout
-          Size="160,42.6666666666667"
-          Id="Package\MaxModifiedDate"
-          TopLeft="294.374995613471,67.8666656438516" />
+          Size="184,42.6666666666667"
+          Id="Package\EST_MaxModifiedDate"
+          TopLeft="105.624998426065,207.616663144927" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="111.374999823049,96.9166657949486">
+          TopLeft="218.249998230487,98.8666657600798">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="56.2083325603354,47.0333317293719"
+              EndConnector="101.83333188047,38.5833318804692"
               Start="0,0"
-              End="56.2083325603354,39.5333317293719">
+              End="101.83333188047,31.0833318804692">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.516665864686" />
+                    End="0,15.2916659402346" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,19.516665864686"
-                    Point2="0,23.516665864686"
-                    Point3="4,23.516665864686" />
+                    Point1="0,15.2916659402346"
+                    Point2="0,19.2916659402346"
+                    Point3="4,19.2916659402346" />
                   <mssgle:LineSegment
-                    End="52.2083325603354,23.516665864686" />
+                    End="97.83333188047,19.2916659402346" />
                   <mssgle:CubicBezierSegment
-                    Point1="52.2083325603354,23.516665864686"
-                    Point2="56.2083325603354,23.516665864686"
-                    Point3="56.2083325603354,27.516665864686" />
+                    Point1="97.83333188047,19.2916659402346"
+                    Point2="101.83333188047,19.2916659402346"
+                    Point3="101.83333188047,23.2916659402346" />
                   <mssgle:LineSegment
-                    End="56.2083325603354,39.5333317293719" />
+                    End="101.83333188047,31.0833318804692" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26896,30 +26896,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="167.583332383384,186.616664190987">
+          TopLeft="320.083330110957,180.116664307216">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="71.9583318339025,34.0333319618319"
+              EndConnector="-122.458331684892,27.4999988377111"
               Start="0,0"
-              End="71.9583318339025,26.5333319618319">
+              End="-122.458331684892,19.9999988377111">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.016665980916" />
+                    End="0,9.74999941885557" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.016665980916"
-                    Point2="0,17.016665980916"
-                    Point3="4,17.016665980916" />
+                    Point1="0,9.74999941885557"
+                    Point2="0,13.7499994188556"
+                    Point3="-4,13.7499994188556" />
                   <mssgle:LineSegment
-                    End="67.9583318339025,17.016665980916" />
+                    End="-118.458331684892,13.7499994188556" />
                   <mssgle:CubicBezierSegment
-                    Point1="67.9583318339025,17.016665980916"
-                    Point2="71.9583318339025,17.016665980916"
-                    Point3="71.9583318339025,21.016665980916" />
+                    Point1="-118.458331684892,13.7499994188556"
+                    Point2="-122.458331684892,13.7499994188556"
+                    Point3="-122.458331684892,17.7499994188556" />
                   <mssgle:LineSegment
-                    End="71.9583318339025,26.5333319618319" />
+                    End="-122.458331684892,19.9999988377111" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26930,30 +26930,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="205.374999823049,75.5833324616152">
+          TopLeft="197.624998426065,250.283329811593">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="88.9999957904219,13.6166665155697"
+              EndConnector="121.291664608442,28.8666652951641"
               Start="0,0"
-              End="81.4999957904219,13.6166665155697">
+              End="121.291664608442,21.3666652951641">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="40.499997895211,0" />
+                    End="0,10.4333326475821" />
                   <mssgle:CubicBezierSegment
-                    Point1="40.499997895211,0"
-                    Point2="44.499997895211,0"
-                    Point3="44.499997895211,4" />
+                    Point1="0,10.4333326475821"
+                    Point2="0,14.4333326475821"
+                    Point3="4,14.4333326475821" />
                   <mssgle:LineSegment
-                    End="44.499997895211,9.61666651556969" />
+                    End="117.291664608442,14.4333326475821" />
                   <mssgle:CubicBezierSegment
-                    Point1="44.499997895211,9.61666651556969"
-                    Point2="44.499997895211,13.6166665155697"
-                    Point3="48.499997895211,13.6166665155697" />
+                    Point1="117.291664608442,14.4333326475821"
+                    Point2="121.291664608442,14.4333326475821"
+                    Point3="121.291664608442,18.4333326475821" />
                   <mssgle:LineSegment
-                    End="81.4999957904219,13.6166665155697" />
+                    End="121.291664608442,21.3666652951641" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26969,7 +26969,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package.EventHandlers[OnError]">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="144,42.6666666666667"
           Id="Package.EventHandlers[OnError]\EST_ErrorLog"
@@ -27009,7 +27009,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -27035,69 +27037,69 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="158.666666666667,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\DC_AuditColumn"
-          TopLeft="474.651779170414,514.766658096712" />
+          TopLeft="877.568439833155,184.566664001148" />
         <NodeLayout
           Size="184,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\Multicast_OutputRows"
-          TopLeft="47.999999366701,274.599995188117" />
+          TopLeft="875.291653705761,41.0333326979478" />
         <NodeLayout
           Size="210.666666666667,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\Lookup_MarketSourceName"
-          TopLeft="435.416666027158,399.677380555818" />
+          TopLeft="76.4583380427209,312.79404877608" />
         <NodeLayout
           Size="150.666666666667,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\OD_LendingQB"
-          TopLeft="52.3749997485426,43.7178569959103" />
+          TopLeft="72.9999994412061,39.384523740063" />
         <NodeLayout
           Size="153.333333333334,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\DC_ReplaceNull"
-          TopLeft="439.35416064877,157.158331157913" />
+          TopLeft="879.562487422488,325.50832814758" />
         <NodeLayout
           Size="228,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\FuzzyL_MortgInCompCrosswalk"
-          TopLeft="438.833326876165,261.599995420575" />
+          TopLeft="490.916659433396,320.533327700098" />
         <NodeLayout
-          Size="197.333333333334,42.6666666666667"
+          Size="197.333333333334,42"
           Id="Package\DFT__SharePoint_OData\DC_DT_WSTR_NUMERIC"
-          TopLeft="43.000000782311,394.105351803376" />
+          TopLeft="71.7500003539025,180.688688952896" />
         <NodeLayout
-          Size="185.333333333334,42.6666666666667"
+          Size="185.333333333334,42"
           Id="Package\DFT__SharePoint_OData\OLEDB_D_StgTableQB"
-          TopLeft="437.447912793141,52.4761944224422" />
+          TopLeft="861.822906469461,448.1095206813" />
         <NodeLayout
           Size="131.333333333334,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\CS_NoTest"
-          TopLeft="47.6874993713574,148.066669386426" />
+          TopLeft="488.312492805533,41.9000046181672" />
         <NodeLayout
           Size="170.666666666667,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\DC_String_DT_STR"
-          TopLeft="42.3750012386591,515.917850161642" />
+          TopLeft="489.87499457039,183.117856112569" />
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[Derived Column Output1]"
-          TopLeft="553.985112503747,514.766658096712">
+          TopLeft="956.901773166488,227.233330667814">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-13.2351131432558,-72.4226108742272"
+              EndConnector="-775.110101790434,85.5607181082652"
               Start="0,0"
-              End="-13.2351131432558,-64.9226108742272">
+              End="-775.110101790434,78.0607181082652">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-32.2113054371136" />
+                    End="0,38.7803590541326" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-32.2113054371136"
-                    Point2="0,-36.2113054371136"
-                    Point3="-4,-36.2113054371136" />
+                    Point1="0,38.7803590541326"
+                    Point2="0,42.7803590541326"
+                    Point3="-4,42.7803590541326" />
                   <mssgle:LineSegment
-                    End="-9.23511314325583,-36.2113054371136" />
+                    End="-771.110101790434,42.7803590541326" />
                   <mssgle:CubicBezierSegment
-                    Point1="-9.23511314325583,-36.2113054371136"
-                    Point2="-13.2351131432558,-36.2113054371136"
-                    Point3="-13.2351131432558,-40.2113054371136" />
+                    Point1="-771.110101790434,42.7803590541326"
+                    Point2="-775.110101790434,42.7803590541326"
+                    Point3="-775.110101790434,46.7803590541326" />
                   <mssgle:LineSegment
-                    End="-13.2351131432558,-64.9226108742272" />
+                    End="-775.110101790434,78.0607181082652" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27108,30 +27110,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[Derived Column Output]"
-          TopLeft="516.020827315437,157.158331157913">
+          TopLeft="955.359363612641,368.174994814247">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="14.0937521443713,-62.0154700688037"
+              EndConnector="0,79.9345258670534"
               Start="0,0"
-              End="14.0937521443713,-54.5154700688037">
+              End="0,72.4345258670534">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-27.0077350344018" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-27.0077350344018"
-                    Point2="0,-31.0077350344018"
-                    Point3="4,-31.0077350344018" />
-                  <mssgle:LineSegment
-                    End="10.0937521443713,-31.0077350344018" />
-                  <mssgle:CubicBezierSegment
-                    Point1="10.0937521443713,-31.0077350344018"
-                    Point2="14.0937521443713,-31.0077350344018"
-                    Point3="14.0937521443713,-35.0077350344018" />
-                  <mssgle:LineSegment
-                    End="14.0937521443713,-54.5154700688037" />
+                    End="0,72.4345258670534" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27142,18 +27132,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[Data Conversion Output1]"
-          TopLeft="213.041667905326,536.67558746251">
+          TopLeft="660.541661237056,205.175593390192">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="261.610111265088,0"
+              EndConnector="217.026778596098,0"
               Start="0,0"
-              End="254.110111265088,0">
+              End="209.526778596098,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="254.110111265088,0" />
+                    End="209.526778596098,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27164,30 +27154,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[Data Conversion Output]"
-          TopLeft="141.666667448978,436.772018470043">
+          TopLeft="269.083333687236,203.0699391994">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-13.9583328769853,79.1458316915989"
+              EndConnector="220.791660883154,0"
               Start="0,0"
-              End="-13.9583328769853,71.6458316915989">
+              End="213.291660883154,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,35.5729158457995" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,35.5729158457995"
-                    Point2="0,39.5729158457995"
-                    Point3="-4,39.5729158457995" />
-                  <mssgle:LineSegment
-                    End="-9.95833287698525,39.5729158457995" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-9.95833287698525,39.5729158457995"
-                    Point2="-13.9583328769853,39.5729158457995"
-                    Point3="-13.9583328769853,43.5729158457995" />
-                  <mssgle:LineSegment
-                    End="-13.9583328769853,71.6458316915989" />
+                    End="213.291660883154,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27198,66 +27176,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[BorrFirstNameorLastName_NotTest]"
-          TopLeft="113.354166038024,190.733336053093">
+          TopLeft="619.645826138867,62.8000019913908">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="26.6458333286769,83.8666591350245"
+              EndConnector="255.645827566895,0"
               Start="0,0"
-              End="26.6458333286769,76.3666591350245">
+              End="248.145827566895,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,37.9333295675122" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,37.9333295675122"
-                    Point2="0,41.9333295675122"
-                    Point3="4,41.9333295675122" />
-                  <mssgle:LineSegment
-                    End="22.6458333286769,41.9333295675122" />
-                  <mssgle:CubicBezierSegment
-                    Point1="22.6458333286769,41.9333295675122"
-                    Point2="26.6458333286769,41.9333295675122"
-                    Point3="26.6458333286769,45.9333295675122" />
-                  <mssgle:LineSegment
-                    End="26.6458333286769,76.3666591350245" />
+                    End="248.145827566895,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-65.0234700544116,46.9333295675122,156.6927734375,10.7841796875"
+              BoundingBox="45.7265270646973,5,156.6927734375,10.7841796875"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT__SharePoint_OData.Paths[Output]"
-          TopLeft="127.708333081876,86.384523662577">
+          Id="Package\DFT__SharePoint_OData.Paths[Conditional Split Input]"
+          TopLeft="223.666666107873,61.9755975124485">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-14.3541670438518,61.6821457238493"
+              EndConnector="264.645826697661,0"
               Start="0,0"
-              End="-14.3541670438518,54.1821457238493">
+              End="257.145826697661,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.8410728619246" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.8410728619246"
-                    Point2="0,30.8410728619246"
-                    Point3="-4,30.8410728619246" />
-                  <mssgle:LineSegment
-                    End="-10.3541670438518,30.8410728619246" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-10.3541670438518,30.8410728619246"
-                    Point2="-14.3541670438518,30.8410728619246"
-                    Point3="-14.3541670438518,34.8410728619246" />
-                  <mssgle:LineSegment
-                    End="-14.3541670438518,54.1821457238493" />
+                    End="257.145826697661,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27268,18 +27222,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[Multicast Output 1]"
-          TopLeft="140.833333407839,317.266661854784">
+          TopLeft="967.291653705761,83.6999993646144">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,76.838689948592"
+              EndConnector="-796.874986685192,96.988689588282"
               Start="0,0"
-              End="0,69.338689948592">
+              End="-796.874986685192,89.488689588282">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,69.338689948592" />
+                    End="0,44.494344794141" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44.494344794141"
+                    Point2="0,48.494344794141"
+                    Point3="-4,48.494344794141" />
+                  <mssgle:LineSegment
+                    End="-792.874986685192,48.494344794141" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-792.874986685192,48.494344794141"
+                    Point2="-796.874986685192,48.494344794141"
+                    Point3="-796.874986685192,52.494344794141" />
+                  <mssgle:LineSegment
+                    End="-796.874986685192,89.488689588282" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27290,66 +27256,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[Lookup Match Output]"
-          TopLeft="540.749999360491,399.677380555818">
+          TopLeft="287.125004709388,337.997021571422">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12.0833275156738,-95.4107184685763"
+              EndConnector="203.791654724009,0"
               Start="0,0"
-              End="12.0833275156738,-87.9107184685763">
+              End="196.291654724009,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-43.7053592342882" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-43.7053592342882"
-                    Point2="0,-47.7053592342882"
-                    Point3="4,-47.7053592342882" />
-                  <mssgle:LineSegment
-                    End="8.08332751567377,-47.7053592342882" />
-                  <mssgle:CubicBezierSegment
-                    Point1="8.08332751567377,-47.7053592342882"
-                    Point2="12.0833275156738,-47.7053592342882"
-                    Point3="12.0833275156738,-51.7053592342882" />
-                  <mssgle:LineSegment
-                    End="12.0833275156738,-87.9107184685763" />
+                    End="196.291654724009,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-42.1497229609131,-42.7053592342882,96.3827734375,11.609375"
+              BoundingBox="49.9544406432544,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[Fuzzy Lookup Output]"
-          TopLeft="552.833326876165,261.599995420575">
+          TopLeft="718.916659433396,344.354161257172">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-36.8124995607284,-61.7749975959953"
+              EndConnector="160.645827989091,0"
               Start="0,0"
-              End="-36.8124995607284,-54.2749975959953">
+              End="153.145827989091,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-26.8874987979977" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-26.8874987979977"
-                    Point2="0,-30.8874987979977"
-                    Point3="-4,-30.8874987979977" />
-                  <mssgle:LineSegment
-                    End="-32.8124995607284,-30.8874987979977" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-32.8124995607284,-30.8874987979977"
-                    Point2="-36.8124995607284,-30.8874987979977"
-                    Point3="-36.8124995607284,-34.8874987979977" />
-                  <mssgle:LineSegment
-                    End="-36.8124995607284,-54.2749975959953" />
+                    End="153.145827989091,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
