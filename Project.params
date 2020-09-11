@@ -122,7 +122,28 @@
         SSIS:Name="Sensitive">1</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAACAAAAAAAQZgAAAAEAACAAAAC3ZxHmS36gb3GPO9N/BJ+Mv3G3WX2hOXKiKrcqZjsZDgAAAAAOgAAAAAIAACAAAAB/PQHVybbStcnsTqvd+/zBMnypz+irWIu3y3+2fcPar4AAAADoxtGKkSEkMuOc3YV1yn4XViKMrAJvGtShgF++lctoUDj9xDmuI5kxnhsOIHigHM2I2Gdpn8RmBnt3uKUeyZEwctuENXzBCPnGYiQ30Rut0ipcfQn0omlVw2m8N6bxnbMukD4+LuLVFEHgafXl4MOJ4/BeWAtc8JNXIoSF443E9EAAAAA7NmV+nTB5JggAvyuaNzu44PvDR1QjEtNPDr5ab2dH1pnqSdhBgbI5n933oUdjtMwCp+8tW9w882r4XYafZ38S</SSIS:Property>
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAACAAAAAAAQZgAAAAEAACAAAABgeIipyjIgpCeLzB2Unhjz4Hll/V8fOcqIGDhf2/wnRgAAAAAOgAAAAAIAACAAAAD28FjLDJGFvLuOYzxElGzrOgpJ6QlU/XVtsxZt67CdsoAAAAAe5W0Q2nVOdiIC1+MyVq5hEhN9wjXjeArel1t4ovdS9D5RSz/4BzOxvixDSDBW2eCLvoYYSD5FmlPq93dN5k8HSq391tPy4BYpIbkhnHFcV0digxXxdNsGtPfpQBq7gB+4pPDiaDNYfsqENk3SKptCEMpuHv+H9QjHw2bcQd6oDEAAAACLGZOYPbnSUrM3GGYaeTZGbQVNeyd8zSiHonH7SOmjWiyds9vBjRkRkN/o7SjBvFwEL7KLwcRA3OD0uy2daLM0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="QuickenLoan_SF_ConnectionString">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{5aeb074e-c5ed-4959-95ca-550b52254a45}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=SOAP;ServiceUrl=https://test.salesforce.com/services/Soap/u/48.0;UserName=salesforce@dunallc.com.sandboxdev;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
