@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-AHBB1TO\Bin"
   DTS:DTSID="{8B68552E-32AE-4B38-9CBB-5651180C0408}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.123"
+  DTS:LastModifiedProductVersion="15.0.2000.128"
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Mahlet_Gabregziabher_LendingQB"
   DTS:PackageType="5"
-  DTS:VersionBuild="147"
-  DTS:VersionGUID="{07EFF16C-3600-42CD-8383-38AD5F456BB6}">
+  DTS:VersionBuild="148"
+  DTS:VersionGUID="{26C92D05-2DF4-4138-83B1-A7FA3AB3B8E5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -25,7 +25,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varBody">
       <DTS:VariableValue
-        DTS:DataType="7">9/17/2020 5:07:18 PM</DTS:VariableValue>
+        DTS:DataType="7">9/21/2020 6:31:57 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -118,7 +118,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">9/17/2020 5:07:18 PM</DTS:VariableValue>
+        DTS:DataType="7">9/21/2020 6:31:57 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -25842,6 +25842,155 @@ where [refTable].[MarketSourceCode] = ?</property>
               ReadOnlyVariables="System::PackageName,User::varFromEmail,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail"
               ReadWriteVariables="System::ErrorCode,System::ErrorDescription,User::varTimeStamp">
               <ProjectItem
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_d9dff51c1cec4909b7121b440cd5f94b")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_d9dff51c1cec4909b7121b440cd5f94b")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+              <ProjectItem
+                Name="Properties\Resources.resx"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
+              <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -25988,133 +26137,25 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b
 	}
 }]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Resources.resx"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-</root>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+                Name="Project"
+                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:DisplayName>
+    <msb:ProjectId>{6B6CC9A0-EE56-47F0-8218-5F6595D62513}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
               <ProjectItem
                 Name="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -26202,26 +26243,6 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b
   </ProjectExtensions>
 </Project>]]></ProjectItem>
               <ProjectItem
-                Name="Project"
-                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:DisplayName>
-    <msb:ProjectId>{6B6CC9A0-EE56-47F0-8218-5F6595D62513}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="ScriptMain.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
-              <ProjectItem
                 Name="Properties\Settings.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
 // <auto-generated>
@@ -26251,35 +26272,14 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b.Properties {
     }
 }]]></ProjectItem>
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_d9dff51c1cec4909b7121b440cd5f94b")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_d9dff51c1cec4909b7121b440cd5f94b")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -26703,6 +26703,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="197.333333333334,42"
+          Id="Package\DFT__SharePoint_OData\DC_DT_WSTR_NUMERIC"
+          TopLeft="71.7500003539025,180.688688952896" />
+        <NodeLayout
           Size="206.666666666667,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\DC_NewLoansAuditColumn"
           TopLeft="877.568439833155,184.566664001148" />
@@ -26710,10 +26714,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Size="184,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\Multicast_OutputRows"
           TopLeft="875.291653705761,41.0333326979478" />
-        <NodeLayout
-          Size="210.666666666667,42.6666666666667"
-          Id="Package\DFT__SharePoint_OData\Lookup_MarketSourceName"
-          TopLeft="76.4583380427209,312.79404877608" />
         <NodeLayout
           Size="150.666666666667,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\OD_LendingQB"
@@ -26727,9 +26727,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Id="Package\DFT__SharePoint_OData\FuzzyL_MortgInCompCrosswalk"
           TopLeft="490.916659433396,320.533327700098" />
         <NodeLayout
-          Size="197.333333333334,42"
-          Id="Package\DFT__SharePoint_OData\DC_DT_WSTR_NUMERIC"
-          TopLeft="71.7500003539025,180.688688952896" />
+          Size="210.666666666667,42.6666666666667"
+          Id="Package\DFT__SharePoint_OData\Lookup_MarketSourceName"
+          TopLeft="76.4583380427209,312.79404877608" />
         <NodeLayout
           Size="185.333333333334,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\OLEDB_D_StgTableQB"
@@ -26737,7 +26737,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="233.333333333334,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\CS_BorrFirst&amp;LastName_NotTest"
-          TopLeft="491.437492758967,37.5666713623199" />
+          TopLeft="430.723207949394,33.8523857144508" />
         <NodeLayout
           Size="170.666666666667,42.6666666666667"
           Id="Package\DFT__SharePoint_OData\DC_String_DT_STR"
@@ -26822,18 +26822,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[Conditional Split Input]"
-          TopLeft="223.666666107873,59.8089308845248">
+          TopLeft="223.666666107873,57.9517880605902">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="267.770826651094,0"
+              EndConnector="207.056541841522,0"
               Start="0,0"
-              End="260.270826651094,0">
+              End="199.556541841522,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="260.270826651094,0" />
+                    End="199.556541841522,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26946,31 +26946,44 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT__SharePoint_OData.Paths[KEEP]"
-          TopLeft="724.7708260923,60.6333353634672">
+          TopLeft="664.056541282728,58.7761925395326">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="150.520827613461,0"
+              EndConnector="211.235112423033,0"
               Start="0,0"
-              End="143.020827613461,0">
+              End="203.735112423033,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="143.020827613461,0" />
+                    End="203.735112423033,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-6.83597291201966,5,156.6927734375,10.7841796875"
+              BoundingBox="23.5211694927666,5,156.6927734375,10.7841796875"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DFT__SharePoint_OData\FuzzyL_MortgInCompCrosswalk">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\DFT__SharePoint_OData\Lookup_MarketSourceName">
     <Properties>
@@ -26991,19 +27004,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\DFT__SharePoint_OData\FuzzyL_MortgInCompCrosswalk">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

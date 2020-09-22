@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-AHBB1TO\Bin"
   DTS:DTSID="{6E666482-5D19-4A1E-884E-F9B64E665CB3}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.123"
+  DTS:LastModifiedProductVersion="15.0.2000.128"
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Mahlet_Gabregziabher_SimpleNexus"
   DTS:PackageType="5"
-  DTS:VersionBuild="224"
-  DTS:VersionGUID="{7B3E7D11-FD4F-4DFE-9E4F-51922A735522}">
+  DTS:VersionBuild="226"
+  DTS:VersionGUID="{4F97BF70-5484-42D3-B8F9-54E2793FFC31}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABSqN+22GeTlYjAtBIZ5xUxaa92VPJzpSShOTDWJZfJ+QAAAAAOgAAAAAIAACAAAADa77PzZoR0dWMjq9aGx03tIX1ItRtcPgYvngmXVJAf8CAAAABWq9gLyLH4nnFUE7GdMb2gFmYl3+5qA/AdTnm6iYw43kAAAAAAT7IrNKf5yhEImVuFOmOowa82Dv7SfJ3JlbM+M5G3UdebeWQBG2DAgyi37YFgcsSWJJeJlUaEj7nSF3pt/6dm</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAWUupjrZASVcXAGFzH4uidS7EvIUpULY7zfCpJAPDCcQAAAAAOgAAAAAIAACAAAABPtePUQpeiYvWEap2mVurENUivVy+KURSL0V7GWUh5WCAAAACHFaESC03eVvYhJ1kdwtcw9SW6BbK7YvNdem9f2lf0/kAAAACNBcVzE8a1Wh2MQhh+Bxfowm+4r8EMPE5mDqOyFR+/hBZUwb0M+jKuYd/KYbeBXvP8BWURw9fENSWRshfQp7E9</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -44,7 +44,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD4F7w+RNXPzre/xpQln54bOSQh/2jKyFGOAxDZx7pY5AAAAAAOgAAAAAIAACAAAABTQY8n20NOv5SG47nAll4z4CoQlVzKyzSGLbmq1Nld5CAAAADfuU5E/xNDicdmGqoTGyyCPgAYr2tekt7G2zANlhgAXEAAAABoSQe6CJYvALXfZ776Koo8YZ75ExDVRdaQlUY+qrHszEnuCtMB6JVEn21+dJqnzUWPZ9ZzLR/WsSc4d0TmCBw4</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACPHof7rqwAPD8jpVQeyB+zLkmaAp6J8uWTXUWT196guAAAAAAOgAAAAAIAACAAAACdYxUQm0PHe5jsPbqgjwgesZYaiE7PSZYwQW0wb4zhVSAAAAB91GYc/jqmnsktaIB2DRO7oaWwaCrqtz1ar3LYE8T32UAAAABZkSQ/KZ0nd9EK4U3lfGM/qhA8QtGN9BY7y92sCIHRNJv/jRhk9AmNPY6SP8aU1hooFFR4xglnFKAOk8oaXvuC</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -58,7 +58,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABff+IeJ9l1vpI9UD4cSWeMSmNBsfyB/DiRj0UsZrCg0QAAAAAOgAAAAAIAACAAAAD5Kfe/yjhoNvOQ8U0zM9r4qSvS4CYE/51hgviLCHtq5iAAAAA9GMKqeu6kz/DGdyF6q3XCEMqNp7m25lknE5DShxfv7UAAAACSeDT6HlDMkeKruV+PGMV/se24A8qbK0t+DL/YVFrczr7JMoTGEJgialCgcXq66FigDgQ8ta+15wpNb3z1qzZj</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABLgTCVnGmhOS6ySPXro3vkIDqdR+RViezVdAZFVDVbLwAAAAAOgAAAAAIAACAAAABVVscOQR588VyMqfsOhq7s61ctbMZxEmxbAljgf/J/gCAAAAAqAKO4FlMweqgY9fbHkb/vJplfrEuPgQRiVahD0e6fV0AAAACmvhhqJUxR15hgxlW62Y1I+1SCLBWVcnjl7St9IbGBVYtyJCkXsEV+GdYkvHekGNwUSMZF/fn4crveh8ddVWnb</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -72,7 +72,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varBody">
       <DTS:VariableValue
-        DTS:DataType="7">9/18/2020 5:28:43 PM</DTS:VariableValue>
+        DTS:DataType="7">9/21/2020 7:24:37 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -165,7 +165,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">9/18/2020 5:28:43 PM</DTS:VariableValue>
+        DTS:DataType="7">9/21/2020 7:24:37 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -196,7 +196,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="EST_QuickenLoan_ETL_Log"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -221,7 +221,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="EPT_UnzipSimpleNexus"
           DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="4">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData />
         </DTS:Executable>
@@ -234,22 +234,22 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FST_Rename&amp;Move"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="5">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData />
         </DTS:Executable>
       </DTS:Executables>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\FTP_SimpleNexusZipFile"
+      DTS:refId="Package\FTP_GetSimpleNexusZipFile"
       DTS:CreationName="Microsoft.FtpTask"
       DTS:Description="FTP Task"
       DTS:DTSID="{5B77BD4E-FE50-4951-B362-DA35D456FBA7}"
       DTS:ExecutableType="Microsoft.FtpTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="FTP_SimpleNexusZipFile"
+      DTS:ObjectName="FTP_GetSimpleNexusZipFile"
       DTS:TaskContact="FTP Task; Microsoft Corporation; SQL Server 2019; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData />
     </DTS:Executable>
@@ -287,7 +287,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="EST_DeleteSimpleNexusSourceRecords"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="8">
+          DTS:ThreadHint="7">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -302,7 +302,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="EST_GetMaxModifiedDate"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="9">
+          DTS:ThreadHint="6">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -317,7 +317,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="EST_RestoreSimpleNexusDB"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="7">
+          DTS:ThreadHint="8">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -332,7 +332,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FST_DeleteSimpleNexusBakFile"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="6">
+          DTS:ThreadHint="9">
           <DTS:Variables />
           <DTS:ObjectData />
         </DTS:Executable>
@@ -346,7 +346,7 @@
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="ST_CheckExistingFile"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -364,29 +364,11 @@
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="ST_MissingFileEmailNotification"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
           Name="ST_988ac166eed44aaabe916c086bfa2e18"
-          VSTAMajorVersion="15"
-          VSTAMinorVersion="0"
-          Language="CSharp" />
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\ST_SuccessEmailNotification"
-      DTS:CreationName="Microsoft.ScriptTask"
-      DTS:Description="Script Task"
-      DTS:DTSID="{40D3B1DF-879D-456B-894A-B33AEE2218FE}"
-      DTS:ExecutableType="Microsoft.ScriptTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="ST_SuccessEmailNotification"
-      DTS:ThreadHint="10">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <ScriptProject
-          Name="ST_2978f70596e641038f8e7d60aff13f3f"
           VSTAMajorVersion="15"
           VSTAMinorVersion="0"
           Language="CSharp" />
@@ -528,6 +510,155 @@
               Language="CSharp"
               ReadOnlyVariables="System::PackageName,User::varFromEmail,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail"
               ReadWriteVariables="System::ErrorCode,System::ErrorDescription,User::varTimeStamp">
+              <ProjectItem
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_d9dff51c1cec4909b7121b440cd5f94b")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_d9dff51c1cec4909b7121b440cd5f94b")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+              <ProjectItem
+                Name="Properties\Resources.resx"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -675,133 +806,25 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b
 	}
 }]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Resources.resx"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-</root>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+                Name="Project"
+                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:DisplayName>
+    <msb:ProjectId>{6B6CC9A0-EE56-47F0-8218-5F6595D62513}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
               <ProjectItem
                 Name="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -889,26 +912,6 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b
   </ProjectExtensions>
 </Project>]]></ProjectItem>
               <ProjectItem
-                Name="Project"
-                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:DisplayName>
-    <msb:ProjectId>{6B6CC9A0-EE56-47F0-8218-5F6595D62513}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="ScriptMain.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
-              <ProjectItem
                 Name="Properties\Settings.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
 // <auto-generated>
@@ -938,35 +941,14 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b.Properties {
     }
 }]]></ProjectItem>
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_d9dff51c1cec4909b7121b440cd5f94b")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_d9dff51c1cec4909b7121b440cd5f94b")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1200,17 +1182,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="193.333333333334,42.6666666666667"
-          Id="Package\FTP_SimpleNexusZipFile"
-          TopLeft="27.3749996740371,34.2624994856863" />
-        <NodeLayout
-          Size="178.666666666667,42.6666666666667"
-          Id="Package\ST_CheckExistingFile"
-          TopLeft="29.875000083819,105.212498753443" />
-        <NodeLayout
-          Size="226.666666666667,42.6666666666667"
-          Id="Package\ST_MissingFileEmailNotification"
-          TopLeft="28.0000005587936,181.362497928217" />
+          Size="210.666666666667,42.6666666666667"
+          Id="Package\EST_QuickenLoan_ETL_Log"
+          TopLeft="312.031245350373,322.724994229227" />
         <NodeLayout
           Size="189.333333333334,42.6666666666667"
           Id="Package\FELC_Unzip_Rename&amp;MoveFile\EPT_UnzipSimpleNexus"
@@ -1225,7 +1199,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           PanelSize="264,198.666666666667"
           Size="264,241.333333333334"
           Id="Package\FELC_Unzip_Rename&amp;MoveFile"
-          TopLeft="272.374997364357,36.8375010489671" />
+          TopLeft="272.374997364357,19.2875013627855" />
+        <NodeLayout
+          Size="209.333333333334,42.6666666666667"
+          Id="Package\FTP_GetSimpleNexusZipFile"
+          TopLeft="27.3749996740371,25.8124996367841" />
+        <NodeLayout
+          Size="233.333333333334,42.6666666666667"
+          Id="Package\SC_RestoreSimpleNexusDB&amp;LoadQuickenLoans\DFT_LoadDataFromSimpleNexus"
+          TopLeft="47.2916586107268,189.116661866407" />
+        <NodeLayout
+          Size="262.666666666667,42.6666666666667"
+          Id="Package\SC_RestoreSimpleNexusDB&amp;LoadQuickenLoans\EST_DeleteSimpleNexusSourceRecords"
+          TopLeft="40.416659011195,126.716662982206" />
         <NodeLayout
           Size="200.666666666667,42.6666666666667"
           Id="Package\SC_RestoreSimpleNexusDB&amp;LoadQuickenLoans\EST_GetMaxModifiedDate"
@@ -1235,32 +1221,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Id="Package\SC_RestoreSimpleNexusDB&amp;LoadQuickenLoans\EST_RestoreSimpleNexusDB"
           TopLeft="25.1874924423173,10.8541650539885" />
         <NodeLayout
-          Size="262.666666666667,42.6666666666667"
-          Id="Package\SC_RestoreSimpleNexusDB&amp;LoadQuickenLoans\EST_DeleteSimpleNexusSourceRecords"
-          TopLeft="40.416659011195,126.716662982206" />
-        <NodeLayout
-          Size="233.333333333334,42.6666666666667"
-          Id="Package\SC_RestoreSimpleNexusDB&amp;LoadQuickenLoans\DFT_LoadDataFromSimpleNexus"
-          TopLeft="47.2916586107268,189.116661866407" />
-        <NodeLayout
           Size="226.666666666667,42.6666666666667"
           Id="Package\SC_RestoreSimpleNexusDB&amp;LoadQuickenLoans\FST_DeleteSimpleNexusBakFile"
           TopLeft="51.6666585455342,249.716661354999" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="308,347.333333333334"
+          PanelSize="308,348"
           Size="308,390.666666666667"
           Id="Package\SC_RestoreSimpleNexusDB&amp;LoadQuickenLoans"
-          TopLeft="563.156244819518,30.9625009036809" />
+          TopLeft="570.656244707759,21.8625010664016" />
         <NodeLayout
-          Size="210.666666666667,42.6666666666667"
-          Id="Package\EST_QuickenLoan_ETL_Log"
-          TopLeft="291.406245657709,385.124993113428" />
+          Size="178.666666666667,42.6666666666667"
+          Id="Package\ST_CheckExistingFile"
+          TopLeft="29.875000083819,105.212498753443" />
         <NodeLayout
-          Size="213.333333333334,42.6666666666667"
-          Id="Package\ST_SuccessEmailNotification"
-          TopLeft="521.906242304947,454.390289299221" />
+          Size="226.666666666667,42.6666666666667"
+          Id="Package\ST_MissingFileEmailNotification"
+          TopLeft="28.0000005587936,181.362497928217" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
