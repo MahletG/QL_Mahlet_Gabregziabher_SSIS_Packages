@@ -7,14 +7,36 @@
   DTS:CreatorName="DESKTOP-AHBB1TO\Bin"
   DTS:DTSID="{4563973B-F831-4FC2-84AE-F0600F39D092}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.128"
+  DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Mahlet_Gabregziabher_LendingPad"
   DTS:PackageType="5"
-  DTS:VersionBuild="386"
-  DTS:VersionGUID="{5A53145F-9D59-4D46-B450-8460A8313415}">
+  DTS:VersionBuild="403"
+  DTS:VersionGUID="{6337A9D8-EAC0-4CB3-93F2-129503F875E8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FTP Connection Manager]"
+      DTS:CreationName="FTP"
+      DTS:DTSID="{62216858-6C48-47B8-B863-C6F4AF289BF7}"
+      DTS:ObjectName="FTP Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="ftp.drivehq.com:21">
+          <DTS:FtpConnection
+            DTS:ServerName="ftp.drivehq.com"
+            DTS:ServerUserName="dunatek"
+            DTS:UsePassiveMode="True">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABiItCFec+dXT4MRZE/AVs8IyacaUI//IRs6tOabfzVXAAAAAAOgAAAAAIAACAAAABlo8ptNxPIpmDTIt8fgCmHhUnw2T7/UL/vqUQOYweVgCAAAAA4f52KAUL7SXLKr9SDaxuzjSQ40j94U58KtsOFnnoll0AAAABxhenS8N7QVf5GwPYq80ziZvhEohFNUnsRHqO+DZQRgGmiYfCxCIW4f6L89EpwMDeHcOXCMiyyjwvFnWJ1RwU5</DTS:Property>
+          </DTS:FtpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
   <DTS:PackageParameters>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -27,7 +49,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC1rq7SOssJhvpuf6ellUMHKZ6eYb8V+X3niE8/BPdYugAAAAAOgAAAAAIAACAAAAB9TNFE9vkyW0cRkDY5mqvfYMUSaLTMuhxn28aL6iPYqCAAAADQsk0SysC6i4elem5InHF17zxfU1RCn03e+VIeshR7V0AAAAA6JFZfuSQ//CuGCgnAbN3vQ03bxkzLO0NP9Trq3sKuTUSDq09Ur66KIxx4zdr82fktChG8FF38uTFqIc/5qRhg</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUi8m/+Qi5FZOe9lmHFKCOGbO8tws5V7/kpcCinYMBcgAAAAAOgAAAAAIAACAAAABmJquz9Z2m6m3L7fw63MKGVcQxvidMnK/n3nPi7RZxjSAAAAB6d5UEKYIHP4zIuR/KUT/h75EXIJvGKC4gs6C2atCje0AAAABEmpG7FhRXeo2ooeezJ5wEoe9GwKsZcI0HTXQNUaaw7C6Vl6K71NvVhyaTKa3I3kS9AsJ0WGEaMDJ2tcz2eOev</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -41,7 +63,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB02jRy3c8wPS0nLGfH+xBpYhias+i09ZBle649rqZ/HgAAAAAOgAAAAAIAACAAAABBDa7CsmJwilMQkjw1URw6y5ATUX1/cSigrGjBgTMvgSAAAABITxChDfSBKJH4U77ERJhH3ogomChnrMoUoJQn+H4UpUAAAACMd2fC6nT4yaeq76vukgFV3Dvoi18+kGedUyDYaa7Omq3M3ajnfgXmfysMEM3yKxDik+kaYaed/xPsMN4zbIJE</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACPiL2s3QszHnzs49jN2kG/xXvzYHTdgORQaAVEL2YVNgAAAAAOgAAAAAIAACAAAABTKGfR0q6F+kvYMuc4bpinIOUf6zFYh0Vw86JFpI6m1yAAAADibJxtp3e5xYyzYQSZZEQPQ7ko+18d6OLS/EfkKEbjCUAAAAB1bNosKnyCycy8fTWTetG5wVe36tdJue/qG7+I3HH5mzSIpJjM5x9zP8ZqqXOI9WZIG/S3p5oYFk9I1CreNY9A</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -55,7 +77,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACo1g+5rN2/BMmv266dHop/7T5FiS4JzA+selMF7FNsegAAAAAOgAAAAAIAACAAAAApATkbW3BCzR24WEF5kw/U5byXg/nlBR7C9Q4qx4+jKCAAAABA3XfzfTLPBDZTUjsYgyjU+WO5sc7/mqiiQkeRebpPTEAAAABehdbUufoMABgm97YbndSr4tmGfa4WITY86pRSZs2IPgYLnjf9PSo2itpYUyGbqLhYfFcNspfVkUWhQ/xrIHLn</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABwXksl2fr4kQX3EW5op+NVXYchb4EIpsM3jdXFfrpTRgAAAAAOgAAAAAIAACAAAAD5ntBERrt5wYYOffNcMnUwObkwmwHtnRaDOrEZ288u+iAAAAAwQ8vJdCHDmFFQ710CWeeK+kBs9i0qIgWjQQTD760eOEAAAAAIvwJvtOWrI9g5dUeKa97IEwDFVX1RH4fblc25Ucts1E3K4rUDiwmCiL5nsSj4/MXG7E9BxJuhSRcrNV5SOdL2</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -69,7 +91,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACq8WaRoBgIMJRMhkmYQ8yjHfRQAZQMtThyxDLccIYWDwAAAAAOgAAAAAIAACAAAACafNLN0fhK8reWaNOryYT0vCq57cI/wBimhxn5bPc7vSAAAABBnzcnwwKFLIbMYx4zAnzFLGaj527FOYFfTJkqZezYGkAAAADSLGfCAvDhFZiQux/m1Gpl3SvtGlEm48MT7mNz12hB8/yfOXTiamDtE9IU599BLYLZUwyQ3iJflVhfy9i1IGoa</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADrhyvxxq5Frer+aTuy8fAERp0ttTS4dwMSsax3HiVQewAAAAAOgAAAAAIAACAAAACN4xpYWS1Z7c3QS43u/P86UhcPWpeMhsc3frmlE6GwwSAAAAABWj5VKfL2RGUJbzTUoqjKVICHrktDMDSuXnZlzc7/SEAAAACcop/ehWa7yCpLFXGluSDF+5xfTFzPru0A873Z+tlKKe3dK22Cra376LYAWrM8/kGgvd8EveS5dE5o9yuFsTMy</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -101,7 +123,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varBody">
       <DTS:VariableValue
-        DTS:DataType="7">9/23/2020 9:32:29 PM</DTS:VariableValue>
+        DTS:DataType="7">9/25/2020 7:58:29 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -130,7 +152,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varFullArchiveFolder">
       <DTS:VariableValue
-        DTS:DataType="8">C:\SSIS\PROJECT\prjaug2020\BulkFiles\Archive_SimpleNexus\SimpleNexus_2020-09-23-21-32-28.zip</DTS:VariableValue>
+        DTS:DataType="8">C:\SSIS\PROJECT\prjaug2020\BulkFiles\Archive_SimpleNexus\SimpleNexus_2020-09-25-19-58-29.zip</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -174,7 +196,7 @@
       DTS:DTSID="{8DF77C0A-23C9-4736-9F5D-0D0C2248FD60}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
-      DTS:ObjectName="varLocalFolder">
+      DTS:ObjectName="varLocalPath">
       <DTS:VariableValue
         DTS:DataType="8">C:\SSIS\PROJECT\prjaug2020\BulkFiles\</DTS:VariableValue>
     </DTS:Variable>
@@ -269,7 +291,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">9/23/2020 9:32:29 PM</DTS:VariableValue>
+        DTS:DataType="7">9/25/2020 7:58:29 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -328,7 +350,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="EST_QuickenLoans_ETLRunLog"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -415,10 +437,10 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="EPT_UnzipSimpleNexus"
           DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:PropertyExpression
-            DTS:Name="Arguments">"X "+ @[User::varLocalFolder]+@[User::varFileName]+" -o"+ @[User::varUnzipFileFolder]</DTS:PropertyExpression>
+            DTS:Name="Arguments">"X "+ @[User::varLocalPath] +@[User::varFileName]+" -o"+ @[User::varUnzipFileFolder]</DTS:PropertyExpression>
           <DTS:ObjectData>
             <ExecuteProcessData
               Executable="C:\Program Files\7-Zip\7z.exe"
@@ -434,7 +456,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FST_Rename&amp;Move"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -479,10 +501,10 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <FtpData
-          ConnectionName="{9EC03670-8F3D-4E81-8235-5C6F0B8C2241}"
+          ConnectionName="{62216858-6C48-47B8-B863-C6F4AF289BF7}"
           TaskOperationType="Receive"
           TaskIsLocalPathVar="True"
-          TaskLocalPath="User::varLocalFolder"
+          TaskLocalPath="User::varLocalPath"
           TaskIsRemotePathVar="True"
           TaskRemotePath="User::varRemotePath"
           TaskOverwriteDest="True" />
@@ -7705,7 +7727,7 @@ where [refTable].[MarketSourceCode] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\1395:invalid};</property>
+                      name="ParameterMap">#{Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\4307:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -11229,12 +11251,29 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="ESQLT_DeleteStgTable"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{FB4495C5-B7A9-4469-8EB9-3214CAD6A7AA}"
-              SQLTask:SqlStatementSource="Delete  from dbo.Stg_Mahlet_Gabregziabher_QL" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              SQLTask:SqlStatementSource="Delete  from dbo.Stg_Mahlet_Gabregziabher_QL&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\EST_InsuranceCompany_NullHundling"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{73b8abb6-5941-44d3-94a6-80361d70e7af}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="EST_InsuranceCompany_NullHundling"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{FB4495C5-B7A9-4469-8EB9-3214CAD6A7AA}"
+              SQLTask:SqlStatementSource="if exists&#xA;(select 1&#xA; From [dbo].[Stg_Mahlet_Gabregziabher_QL]&#xA;Where InsuranceCompany IS NULL&#xA; )&#xA; begin&#xA;Insert into [MortgageInsuranceCompanyCrossWalkReference] ( [MortgageInsuranceCompany], [Insurance_Company] )&#xA;Select DISTINCT MortgageInsuranceCompany,&#xA; MortgageInsuranceCompany   as InsuranceCompany&#xA;From [Stg_Mahlet_Gabregziabher_QL]&#xA;Where InsuranceCompany IS NULL&#xA;end" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -11246,12 +11285,12 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="EST_MaxLastModifiedDate"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{FB4495C5-B7A9-4469-8EB9-3214CAD6A7AA}"
-              SQLTask:SqlStatementSource="SELECT MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;    FROM  [dbo].[Stg_Mahlet_Gabregziabher_QL]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              SQLTask:SqlStatementSource="IF EXISTS (   SELECT [SourceName]&#xA;                    , MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;                      FROM  [dbo].[Stg_Mahlet_Gabregziabher_QL]    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;GROUP BY [SourceName]   )&#xA;&#x9;&#x9;&#x9;BEGIN&#xA;&#x9;&#x9;SELECT [SourceName]&#xA;&#x9;&#x9;, MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;&#x9;&#x9;FROM  [dbo].[Stg_Mahlet_Gabregziabher_QL]&#xA;&#x9;&#x9;GROUP BY [SourceName]&#xA;&#x9;&#x9;END&#xA;&#x9;&#x9;ELSE&#xA;&#x9;&#x9;BEGIN&#xA;&#x9;&#x9;SELECT '?' AS [SourceName],DATEADD(YYYY,-4,GETDATE()) AS MaxLastModifiedDate&#xA;&#x9;&#x9;END" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -11263,7 +11302,7 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="EST_RestoreSimpleNexusDB"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -11280,7 +11319,7 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="FST_DeleteSimpleNexusBakFile"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -11323,6 +11362,14 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 3"
           DTS:To="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\EST_MaxLastModifiedDate" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans.PrecedenceConstraints[Constraint 4]"
+          DTS:CreationName=""
+          DTS:DTSID="{E654B066-3634-4C20-B85A-66FD5BE1AAE0}"
+          DTS:From="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\FST_DeleteSimpleNexusBakFile"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 4"
+          DTS:To="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\EST_InsuranceCompany_NullHundling" />
       </DTS:PrecedenceConstraints>
     </DTS:Executable>
     <DTS:Executable
@@ -11341,8 +11388,38 @@ where [refTable].[MarketSourceCode] = ?</property>
           VSTAMajorVersion="15"
           VSTAMinorVersion="0"
           Language="CSharp"
-          ReadOnlyVariables="User::varFileName,User::varLocalFolder"
+          ReadOnlyVariables="User::varFileName,User::varLocalPath"
           ReadWriteVariables="User::varIsFileExistIsFlag">
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_d22f093553d3417c9c2a0b0cff915cbf")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_d22f093553d3417c9c2a0b0cff915cbf")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -11463,35 +11540,6 @@ where [refTable].[MarketSourceCode] = ?</property>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d22f093553d3417c9c2a0b0cff915cbf.Properties.Settings.get_Default():ST_d22f093553d3417c9c2a0b0cff915cbf.Properties.Sett" +
-    "ings")]
-
-namespace ST_d22f093553d3417c9c2a0b0cff915cbf.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -11589,7 +11637,7 @@ namespace ST_d22f093553d3417c9c2a0b0cff915cbf
             // TODO: Add your code here
             //User::varFileName,User::varLocalFolder
             //User::varIsFileExistIsFlag
-            String FilePath = Dts.Variables["User::varLocalFolder"].Value.ToString() + Dts.Variables["User::varFileName"].Value.ToString();
+            String FilePath = Dts.Variables["User::varLocalPath"].Value.ToString() + Dts.Variables["User::varFileName"].Value.ToString();
             if (
                 File.Exists(FilePath))
             {
@@ -11715,7 +11763,7 @@ namespace ST_d22f093553d3417c9c2a0b0cff915cbf
     <msb:CodeName>ST_d22f093553d3417c9c2a0b0cff915cbf</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_d22f093553d3417c9c2a0b0cff915cbf</msb:DisplayName>
-    <msb:ProjectId>{7BB18A06-6575-42D2-AC5F-C5AD4198CF7F}</msb:ProjectId>
+    <msb:ProjectId>{851967F4-E39C-4735-8145-CA48E08C5703}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_d22f093553d3417c9c2a0b0cff915cbf.csproj" />
@@ -11728,35 +11776,34 @@ namespace ST_d22f093553d3417c9c2a0b0cff915cbf
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_d22f093553d3417c9c2a0b0cff915cbf")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_d22f093553d3417c9c2a0b0cff915cbf")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d22f093553d3417c9c2a0b0cff915cbf.Properties.Settings.get_Default():ST_d22f093553d3417c9c2a0b0cff915cbf.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_d22f093553d3417c9c2a0b0cff915cbf.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="Properties\Settings.settings"
             Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -11837,22 +11884,22 @@ namespace ST_d22f093553d3417c9c2a0b0cff915cbf.Properties {
           <BinaryItem
             Name="ST_d22f093553d3417c9c2a0b0cff915cbf.dll">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
-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
+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
-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
+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
-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
+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
-LnJlbG9jAAAMAAAAAGAAAAACAAAAGAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAc
-LwAAAAAAAEgAAAACAAUAiCEAAKgMAAABAAAAAAAAADAuAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
-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
+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
-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
+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
@@ -11868,7 +11915,7 @@ AMkAvAMlANEAwwIrAIkAGwMvANkAZwUzAOEAYAU5ANEAzQI+APEAnQVDAMEAjgUBAHEARAQGAIkA
 RAQGAAEBdQBJAAEBrQVSAJEARARYALEARAQGAAgAFAByAAgAGAB3ACkAcwDfAC4ACwC3AC4AEwDA
 AC4AGwDfAC4AIwDoAC4AKwARAS4AMwARAS4AOwARAS4AQwDoAC4ASwAXAS4AUwARAS4AWwAuAUMA
 YwB3AEkAcwDfAGEAewB3AGMAawB3AAMAAQAEAAMAAAA0BKgAAADZAK0AAAB5BbIAAgAEAAMAAgAF
-AAUAAQAGAAUAAgAHAAcABIAAAAEAAACOHSaRAAAAAAAA3QIAAAQAAAAAAAAAAAAAAGAAQQAAAAAA
+AAUAAQAGAAUAAgAHAAcABIAAAAEAAACVHTSHAAAAAAAA3QIAAAQAAAAAAAAAAAAAAGAAQQAAAAAA
 DwAAAAAAAAAAAAAAaQAkAwAAAAAEAAAAAAAAAAAAAABgAMUDAAAAAA8AAAAAAAAAAAAAAGkAGgAA
 AAAABAAAAAAAAAAAAAAAYAAtBQAAAAAAAAAAAQAAAJUEAAAFAAIAAAAASW50MzIAPE1vZHVsZT4A
 U3lzdGVtLklPAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuTWFuYWdlZERUUwB2YWx1ZV9fAG1zY29ybGli
@@ -11896,36 +11943,36 @@ ZXJ0aWVzLlJlc291cmNlcy5yZXNvdXJjZXMARGVidWdnaW5nTW9kZXMAU1RfZDIyZjA5MzU1M2Qz
 NDE3YzljMmEwYjBjZmY5MTVjYmYuUHJvcGVydGllcwBnZXRfVmFyaWFibGVzAFNldHRpbmdzAFN5
 c3RlbS5XaW5kb3dzLkZvcm1zAFN1Y2Nlc3MAZ2V0X0R0cwBTY3JpcHRSZXN1bHRzAEV4aXN0cwBD
 b25jYXQAT2JqZWN0AGdldF9EZWZhdWx0AERpYWxvZ1Jlc3VsdABzZXRfVGFza1Jlc3VsdABTaG93
-AE1lc3NhZ2VCb3gAZ2V0X0Fzc2VtYmx5AAAAAClVAHMAZQByADoAOgB2AGEAcgBMAG8AYwBhAGwA
-RgBvAGwAZABlAHIAACNVAHMAZQByADoAOgB2AGEAcgBGAGkAbABlAE4AYQBtAGUAADVVAHMAZQBy
-ADoAOgB2AGEAcgBJAHMARgBpAGwAZQBFAHgAaQBzAHQASQBzAEYAbABhAGcAAHFTAFQAXwBkADIA
-MgBmADAAOQAzADUANQAzAGQAMwA0ADEANwBjADkAYwAyAGEAMABiADAAYwBmAGYAOQAxADUAYwBi
-AGYALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAA23nGdCBxHQoAQ
-UA2IC+fVAAQgAQEIAyAAAQUgAQEREQQgAQEOBSABARFRBCAAEmEEIAASZQUgARJpHAMgABwDIAAO
-BQACDg4OBAABAg4EIAEBHAUAARF9DggAARKAgRGAhQUgABKAiQcgAgEOEoCJCLd6XFYZNOCJCImE
-Xc2AgMyRBAAAAAAEAQAAAAMGEkkDBhJNAwYSEAIGCAMGERQEAAASSQQAABJNBQABARJNBAAAEhAD
-AAABBAgAEkkECAASTQQIABIQCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dz
-AQgBAAIAAAAAACgBACNTVF9kMjJmMDkzNTUzZDM0MTdjOWMyYTBiMGNmZjkxNWNiZgAABQEAAAAA
-FgEAEUNvcHlyaWdodCBAICAyMDIwAABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjcBAFQO
-FEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuN7QAAADOyu++AQAAAJEAAABs
-U3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAu
-MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5I1N5c3Rl
-bS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAAAAAAAAAAUEFEUEFEULQAAAAQLwAA
-AAAAAAAAAAAqLwAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHC8AAAAAAAAAAAAAAABfQ29yRGxs
-TWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AE1lc3NhZ2VCb3gAZ2V0X0Fzc2VtYmx5AAAAACVVAHMAZQByADoAOgB2AGEAcgBMAG8AYwBhAGwA
+UABhAHQAaAAAI1UAcwBlAHIAOgA6AHYAYQByAEYAaQBsAGUATgBhAG0AZQAANVUAcwBlAHIAOgA6
+AHYAYQByAEkAcwBGAGkAbABlAEUAeABpAHMAdABJAHMARgBsAGEAZwAAcVMAVABfAGQAMgAyAGYA
+MAA5ADMANQA1ADMAZAAzADQAMQA3AGMAOQBjADIAYQAwAGIAMABjAGYAZgA5ADEANQBjAGIAZgAu
+AFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBvAHUAcgBjAGUAcwAAAHZVXy7M2lFJsZ66bMBb
+1HgABCABAQgDIAABBSABARERBCABAQ4FIAEBEVEEIAASYQQgABJlBSABEmkcAyAAHAMgAA4FAAIO
+Dg4EAAECDgQgAQEcBQABEX0OCAABEoCBEYCFBSAAEoCJByACAQ4SgIkIt3pcVhk04IkIiYRdzYCA
+zJEEAAAAAAQBAAAAAwYSSQMGEk0DBhIQAgYIAwYRFAQAABJJBAAAEk0FAAEBEk0EAAASEAMAAAEE
+CAASSQQIABJNBAgAEhAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJvd3MBCAEA
+AgAAAAAAKAEAI1NUX2QyMmYwOTM1NTNkMzQxN2M5YzJhMGIwY2ZmOTE1Y2JmAAAFAQAAAAAWAQAR
+Q29weXJpZ2h0IEAgIDIwMjAAAEkBABouTkVURnJhbWV3b3JrLFZlcnNpb249djQuNwEAVA4URnJh
+bWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43tAAAAM7K774BAAAAkQAAAGxTeXN0
+ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lzdGVtLlJl
+c291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAAAwvAAAAAAAA
+AAAAACYvAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYLwAAAAAAAAAAAAAAAF9Db3JEbGxNYWlu
+AG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAABABAAAAAYAACAAAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAA
 AABIAAAAWEAAABoEAAAAAAAAAAAAABoENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBP
-AAAAAAC9BO/+AAABAAAAAQAmkY4dAAABACaRjh0/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAA
+AAAAAAC9BO/+AAABAAAAAQA0h5UdAAABADSHlR0/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAA
 RAAAAAEAVgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBv
 AG4AAAAAAAAAsAR6AwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAABWAwAAAQAwADAA
 MAAwADAANABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABh
 AG4AeQBOAGEAbQBlAAAAAAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4A
 AAAAAFMAVABfAGQAMgAyAGYAMAA5ADMANQA1ADMAZAAzADQAMQA3AGMAOQBjADIAYQAwAGIAMABj
 AGYAZgA5ADEANQBjAGIAZgAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAA
-LgA3ADUANgA2AC4AMwA3ADEANQA4AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAA
+LgA3ADUANwAzAC4AMwA0ADYAMQAyAAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAA
 AFMAVABfAGQAMgAyAGYAMAA5ADMANQA1ADMAZAAzADQAMQA3AGMAOQBjADIAYQAwAGIAMABjAGYA
 ZgA5ADEANQBjAGIAZgAuAGQAbABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0
 AAAAQwBvAHAAeQByAGkAZwBoAHQAIABAACAAIAAyADAAMgAwAAAAKgABAAEATABlAGcAYQBsAFQA
@@ -11934,15 +11981,15 @@ AGEAbQBlAAAAUwBUAF8AZAAyADIAZgAwADkAMwA1ADUAMwBkADMANAAxADcAYwA5AGMAMgBhADAA
 YgAwAGMAZgBmADkAMQA1AGMAYgBmAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBt
 AGUAAAAAAFMAVABfAGQAMgAyAGYAMAA5ADMANQA1ADMAZAAzADQAMQA3AGMAOQBjADIAYQAwAGIA
 MABjAGYAZgA5ADEANQBjAGIAZgAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAA
-ADEALgAwAC4ANwA1ADYANgAuADMANwAxADUAOAAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAA
-VgBlAHIAcwBpAG8AbgAAADEALgAwAC4ANwA1ADYANgAuADMANwAxADUAOAAAAAAAAAAAAAAAAAAA
+ADEALgAwAC4ANwA1ADcAMwAuADMANAA2ADEAMgAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAA
+VgBlAHIAcwBpAG8AbgAAADEALgAwAC4ANwA1ADcAMwAuADMANAA2ADEAMgAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAwAAAA8PwAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAwAAAA4PwAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -11963,7 +12010,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="ST_MissingFileNotificationEmail"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -11971,7 +12018,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           VSTAMajorVersion="15"
           VSTAMinorVersion="0"
           Language="CSharp"
-          ReadOnlyVariables="System::PackageName,System::StartTime,User::varFileName,User::varFromEmail,User::varLocalFolder,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail">
+          ReadOnlyVariables="System::PackageName,System::StartTime,User::varFileName,User::varFromEmail,User::varLocalPath,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail">
           <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
@@ -12224,7 +12271,7 @@ namespace ST_eaa5a1fd9cdf4538bc7cf955d93ac1d1
             String SendMailTo = Dts.Variables["User::varToEmail"].Value.ToString();
             String SendMailFrom = Dts.Variables["User::varFromEmail"].Value.ToString();
             String SendMailSubject = Dts.Variables["User::varSubject"].Value.ToString();
-            String SendMailBody ="The File From" + Dts.Variables["System::PackageName"].Value.ToString() + " " + Dts.Variables["User::varLocalFolder"].Value.ToString() + Dts.Variables["User::varFileName"].Value.ToString() + "is missing." + " " + Dts.Variables["System::StartTime"].Value.ToString();
+            String SendMailBody ="The File From" + Dts.Variables["System::PackageName"].Value.ToString() + " " + Dts.Variables["User::varLocalPath"].Value.ToString() + Dts.Variables["User::varFileName"].Value.ToString() + "is missing." + " " + Dts.Variables["System::StartTime"].Value.ToString();
             String SmtpClient = Dts.Variables["User::varSmtpClient"].Value.ToString();
             String Password = Dts.Variables["User::varPassword"].Value.ToString();
             String Pt = Dts.Variables["User::varSmtpServerPort"].Value.ToString();
@@ -12277,7 +12324,7 @@ namespace ST_eaa5a1fd9cdf4538bc7cf955d93ac1d1
     <msb:CodeName>ST_eaa5a1fd9cdf4538bc7cf955d93ac1d1</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_eaa5a1fd9cdf4538bc7cf955d93ac1d1</msb:DisplayName>
-    <msb:ProjectId>{C3F54240-410D-4ED1-97B5-C65197FF1CCD}</msb:ProjectId>
+    <msb:ProjectId>{F83635B3-587D-4D54-993D-C1FFF3065CC1}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_eaa5a1fd9cdf4538bc7cf955d93ac1d1.csproj" />
@@ -12484,28 +12531,28 @@ namespace ST_eaa5a1fd9cdf4538bc7cf955d93ac1d1.Properties {
           <BinaryItem
             Name="ST_eaa5a1fd9cdf4538bc7cf955d93ac1d1.dll">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
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDABRkZV8AAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAATjMA
+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
-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
+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
-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
+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
-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
+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
-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
+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
-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
+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
-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
+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
-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
+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
@@ -12523,7 +12570,7 @@ AI8FXQD5AOADZAD5AGgAaQAhAVIGbwDRABwGAQBxAKYEBgCZAKYEBgAxAaQAdgAxAWsGfwChAKYE
 hQDBAKYEBgAIABQAnwAIABgApAApAHMADAEuAAsA5AAuABMA7QAuABsADAEuACMAFQEuACsAPgEu
 ADMAPgEuADsAPgEuAEMAFQEuAEsARAEuAFMAPgEuAFsAWwFDAGMApABJAHMADAFhAHsApABjAGsA
 pAAbAAMAAQAEAAMAAACWBNUAAAADAdoAAAAHBt8AAgAEAAMAAgAFAAUAAQAGAAUAAgAHAAcABIAA
-AAEAAACOHaqZAAAAAAAAAQAAAAQAAAAAAAAAAAAAAI0AWwAAAAAADwAAAAAAAAAAAAAAlgAmAwAA
+AAEAAACVHZGHAAAAAAAAAQAAAAQAAAAAAAAAAAAAAI0AWwAAAAAADwAAAAAAAAAAAAAAlgAmAwAA
 AAAEAAAAAAAAAAAAAACNAPcDAAAAAA8AAAAAAAAAAAAAAJYANAAAAAAABAAAAAAAAAAAAAAAjQCf
 BQAAAAAAAAAAAQAAAPcEAAAFAAIAAAAAAABTVF9lYWE1YTFmZDljZGY0NTM4YmM3Y2Y5NTVkOTNh
 YzFkMQBJbnQzMgA8TW9kdWxlPgBNaWNyb3NvZnQuU3FsU2VydmVyLk1hbmFnZWREVFMAdmFsdWVf
@@ -12557,40 +12604,40 @@ a1Jlc3VsdABTbXRwQ2xpZW50AHNldF9Qb3J0AElDcmVkZW50aWFsc0J5SG9zdABTaG93AE1lc3Nh
 Z2VCb3gAc2V0X0JvZHkAZ2V0X0Fzc2VtYmx5AAAhVQBzAGUAcgA6ADoAdgBhAHIAVABvAEUAbQBh
 AGkAbAAAJVUAcwBlAHIAOgA6AHYAYQByAEYAcgBvAG0ARQBtAGEAaQBsAAAhVQBzAGUAcgA6ADoA
 dgBhAHIAUwB1AGIAagBlAGMAdAAAG1QAaABlACAARgBpAGwAZQAgAEYAcgBvAG0AACdTAHkAcwB0
-AGUAbQA6ADoAUABhAGMAawBhAGcAZQBOAGEAbQBlAAADIAAAKVUAcwBlAHIAOgA6AHYAYQByAEwA
-bwBjAGEAbABGAG8AbABkAGUAcgAAI1UAcwBlAHIAOgA6AHYAYQByAEYAaQBsAGUATgBhAG0AZQAA
-GWkAcwAgAG0AaQBzAHMAaQBuAGcALgAgAAAjUwB5AHMAdABlAG0AOgA6AFMAdABhAHIAdABUAGkA
-bQBlAAAnVQBzAGUAcgA6ADoAdgBhAHIAUwBtAHQAcABDAGwAaQBlAG4AdAAAI1UAcwBlAHIAOgA6
-AHYAYQByAFAAYQBzAHMAdwBvAHIAZAAAL1UAcwBlAHIAOgA6AHYAYQByAFMAbQB0AHAAUwBlAHIA
-dgBlAHIAUABvAHIAdAAAN0UAbQBhAGkAbAAgAHcAYQBzACAAcwB1AGMAYwBlAHMAcwBmAHUAbABs
-AHkAIABTAGUAbgB0AABxUwBUAF8AZQBhAGEANQBhADEAZgBkADkAYwBkAGYANAA1ADMAOABiAGMA
-NwBjAGYAOQA1ADUAZAA5ADMAYQBjADEAZAAxAC4AUAByAG8AcABlAHIAdABpAGUAcwAuAFIAZQBz
-AG8AdQByAGMAZQBzAAAAAABTWSV1OtY3TZMNDEsT0ZV4AAQgAQEIAyAAAQUgAQEREQQgAQEOBSAB
-ARFZCwcIDg4ODg4OCBI9BCAAEmkEIAASbQUgARJxHAMgABwDIAAOBQABDh0OBAABCA4FIAASgIEG
-IAEBEoCFBSACAQ4OBiABARKAjQQgAQECBSABARI9BgABEYCVDggAARKAmRGAnQUgABKAoQcgAgEO
-EoChCLd6XFYZNOCJCImEXc2AgMyRBAAAAAAEAQAAAAMGElEDBhJVAwYSEAIGCAMGERQEAAASUQQA
-ABJVBQABARJVBAAAEhADAAABBAgAElEECAASVQQIABIQCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9u
-RXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgBACNTVF9lYWE1YTFmZDljZGY0NTM4YmM3Y2Y5NTVk
-OTNhYzFkMQAABQEAAAAAFgEAEUNvcHlyaWdodCBAICAyMDIwAABJAQAaLk5FVEZyYW1ld29yayxW
-ZXJzaW9uPXY0LjcBAFQOFEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNwAA
-ALQAAADOyu++AQAAAJEAAABsU3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNjb3Js
-aWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdh
-NWM1NjE5MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAAAAAA
-AAAAUEFEUEFEULQAAAAkMwAAAAAAAAAAAAA+MwAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDMA
-AAAAAAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAA
+AGUAbQA6ADoAUABhAGMAawBhAGcAZQBOAGEAbQBlAAADIAAAJVUAcwBlAHIAOgA6AHYAYQByAEwA
+bwBjAGEAbABQAGEAdABoAAAjVQBzAGUAcgA6ADoAdgBhAHIARgBpAGwAZQBOAGEAbQBlAAAZaQBz
+ACAAbQBpAHMAcwBpAG4AZwAuACAAACNTAHkAcwB0AGUAbQA6ADoAUwB0AGEAcgB0AFQAaQBtAGUA
+ACdVAHMAZQByADoAOgB2AGEAcgBTAG0AdABwAEMAbABpAGUAbgB0AAAjVQBzAGUAcgA6ADoAdgBh
+AHIAUABhAHMAcwB3AG8AcgBkAAAvVQBzAGUAcgA6ADoAdgBhAHIAUwBtAHQAcABTAGUAcgB2AGUA
+cgBQAG8AcgB0AAA3RQBtAGEAaQBsACAAdwBhAHMAIABzAHUAYwBjAGUAcwBzAGYAdQBsAGwAeQAg
+AFMAZQBuAHQAAHFTAFQAXwBlAGEAYQA1AGEAMQBmAGQAOQBjAGQAZgA0ADUAMwA4AGIAYwA3AGMA
+ZgA5ADUANQBkADkAMwBhAGMAMQBkADEALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1
+AHIAYwBlAHMAAAAAAGKhB+RrHvdDm3IVnLCVbQQABCABAQgDIAABBSABARERBCABAQ4FIAEBEVkL
+BwgODg4ODg4IEj0EIAASaQQgABJtBSABEnEcAyAAHAMgAA4FAAEOHQ4EAAEIDgUgABKAgQYgAQES
+gIUFIAIBDg4GIAEBEoCNBCABAQIFIAEBEj0GAAERgJUOCAABEoCZEYCdBSAAEoChByACAQ4SgKEI
+t3pcVhk04IkIiYRdzYCAzJEEAAAAAAQBAAAAAwYSUQMGElUDBhIQAgYIAwYRFAQAABJRBAAAElUF
+AAEBElUEAAASEAMAAAEECAASUQQIABJVBAgAEhAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNl
+cHRpb25UaHJvd3MBCAEAAgAAAAAAKAEAI1NUX2VhYTVhMWZkOWNkZjQ1MzhiYzdjZjk1NWQ5M2Fj
+MWQxAAAFAQAAAAAWAQARQ29weXJpZ2h0IEAgIDIwMjAAAEkBABouTkVURnJhbWV3b3JrLFZlcnNp
+b249djQuNwEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43AAAAtAAA
+AM7K774BAAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwg
+VmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2
+MTkzNGUwODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQ
+QURQQURQtAAAACAzAAAAAAAAAAAAADozAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsMwAAAAAA
+AAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
 SAAAAFhAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
-AAAAvQTv/gAAAQAAAAEAqpmOHQAAAQCqmY4dPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
+AAAAvQTv/gAAAQAAAAEAkYeVHQAAAQCRh5UdPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
 AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
 AAAAAAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAA
 MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
 AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
 AABTAFQAXwBlAGEAYQA1AGEAMQBmAGQAOQBjAGQAZgA0ADUAMwA4AGIAYwA3AGMAZgA5ADUANQBk
 ADkAMwBhAGMAMQBkADEAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
-NwA1ADYANgAuADMAOQAzADMAOAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABT
+NwA1ADcAMwAuADMANAA3ADAANQAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABT
 AFQAXwBlAGEAYQA1AGEAMQBmAGQAOQBjAGQAZgA0ADUAMwA4AGIAYwA3AGMAZgA5ADUANQBkADkA
 MwBhAGMAMQBkADEALgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAA
 AEMAbwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADIAMAAAACoAAQABAEwAZQBnAGEAbABUAHIA
@@ -12599,15 +12646,15 @@ AG0AZQAAAFMAVABfAGUAYQBhADUAYQAxAGYAZAA5AGMAZABmADQANQAzADgAYgBjADcAYwBmADkA
 NQA1AGQAOQAzAGEAYwAxAGQAMQAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBl
 AAAAAABTAFQAXwBlAGEAYQA1AGEAMQBmAGQAOQBjAGQAZgA0ADUAMwA4AGIAYwA3AGMAZgA5ADUA
 NQBkADkAMwBhAGMAMQBkADEAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAx
-AC4AMAAuADcANQA2ADYALgAzADkAMwAzADgAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYA
-ZQByAHMAaQBvAG4AAAAxAC4AMAAuADcANQA2ADYALgAzADkAMwAzADgAAAAAAAAAAAAAAAAAAAAA
+AC4AMAAuADcANQA3ADMALgAzADQANwAwADUAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYA
+ZQByAHMAaQBvAG4AAAAxAC4AMAAuADcANQA3ADMALgAzADQANwAwADUAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAUDMAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAATDMAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -12739,8 +12786,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="253.333333333334,214.666666666667"
-          Size="253.333333333334,258"
+          PanelSize="253.333333333334,216"
+          Size="253.333333333334,258.666666666667"
           Id="Package\FELC_Rename&amp;MoveFile"
           TopLeft="395.982948726805,137.48939157924" />
         <NodeLayout
@@ -12855,11 +12902,37 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="260,42.6666666666667"
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\EST_InsuranceCompany_NullHundling"
+          TopLeft="40.2499927543105,410.649992549717" />
+        <EdgeLayout
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans.PrecedenceConstraints[Constraint 4]"
+          TopLeft="166.741065119305,365.276183086237">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45.3738094634808"
+              Start="0,0"
+              End="0,37.8738094634808">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.8738094634808" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="315.333333333334,417.333333333334"
-          Size="315.333333333334,460"
+          PanelSize="474,508"
+          Size="474,551.333333333334"
           Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans"
           TopLeft="736.941953304424,117.038688538347" />
         <NodeLayout
@@ -12966,18 +13039,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="649.316282060138,269.097373392127">
+          TopLeft="649.316282060138,266.822724912573">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="87.6256712442857,0"
+              EndConnector="87.6256712442857,35.3270747368847"
               Start="0,0"
-              End="80.1256712442857,0">
+              End="80.1256712442857,35.3270747368847">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="80.1256712442857,0" />
+                    End="48.4232675083369,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="48.4232675083369,0"
+                    Point2="52.4232675083369,0"
+                    Point3="52.4232675083369,4" />
+                  <mssgle:LineSegment
+                    End="52.4232675083369,31.3270747368847" />
+                  <mssgle:CubicBezierSegment
+                    Point1="52.4232675083369,31.3270747368847"
+                    Point2="52.4232675083369,35.3270747368847"
+                    Point3="56.4232675083369,35.3270747368847" />
+                  <mssgle:LineSegment
+                    End="80.1256712442857,35.3270747368847" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12988,30 +13073,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="736.941953304424,422.37202187168">
+          TopLeft="736.941953304424,483.260910760569">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-83.681542974631,126.25297062186"
+              EndConnector="-83.681542974631,65.3640817329712"
               Start="0,0"
-              End="-76.181542974631,126.25297062186">
+              End="-76.181542974631,65.3640817329712">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-29.6466515946523,0" />
+                    End="-29.6179046529384,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="-29.6466515946523,0"
-                    Point2="-33.6466515946523,0"
-                    Point3="-33.6466515946523,4" />
+                    Point1="-29.6179046529384,0"
+                    Point2="-33.6179046529384,0"
+                    Point3="-33.6179046529384,4" />
                   <mssgle:LineSegment
-                    End="-33.6466515946523,122.25297062186" />
+                    End="-33.6179046529384,61.3640817329712" />
                   <mssgle:CubicBezierSegment
-                    Point1="-33.6466515946523,122.25297062186"
-                    Point2="-33.6466515946523,126.25297062186"
-                    Point3="-37.6466515946523,126.25297062186" />
+                    Point1="-33.6179046529384,61.3640817329712"
+                    Point2="-33.6179046529384,65.3640817329712"
+                    Point3="-37.6179046529384,65.3640817329712" />
                   <mssgle:LineSegment
-                    End="-76.181542974631,126.25297062186" />
+                    End="-76.181542974631,65.3640817329712" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13081,25 +13166,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="162.666666666667,42.6666666666667"
-          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\OLE DB_StgTable"
-          TopLeft="638.865731563074,280.456939429484" />
+          Size="213.333333333334,42.6666666666667"
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\DC_ReplaceNullwithDunatek"
+          TopLeft="342.326383787829,164.540274835569" />
         <NodeLayout
-          Size="192,42.6666666666667"
-          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\CS_BorrFirst&amp;LastName"
-          TopLeft="357.343744675163,57.3624989742786" />
+          Size="212,42.6666666666667"
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\DC_NewLoansAuditColumns"
+          TopLeft="625.086796241036,55.6291656719397" />
+        <NodeLayout
+          Size="190.666666666667,42.6666666666667"
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\OLE DB S_SimpleNexus"
+          TopLeft="80.4999988824129,51.8124991718679" />
         <NodeLayout
           Size="246.666666666667,42.6666666666667"
           Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\Fuzzy_MortgageInsuranceCompany"
           TopLeft="595.833324454725,167.284719230939" />
         <NodeLayout
+          Size="162.666666666667,42.6666666666667"
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\OLE DB_StgTable"
+          TopLeft="638.865731563074,280.456939429484" />
+        <NodeLayout
           Size="210.666666666667,42.6666666666667"
           Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\Lookup_MarketSourceName"
           TopLeft="52.3611103308698,161.073608230891" />
         <NodeLayout
-          Size="213.333333333334,42.6666666666667"
-          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\DC_ReplaceNullwithDunatek"
-          TopLeft="342.326383787829,164.540274835569" />
+          Size="192,42.6666666666667"
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\CS_BorrFirst&amp;LastName"
+          TopLeft="357.343744675163,57.3624989742786" />
         <EdgeLayout
           Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData.Paths[Lookup Match Output]"
           TopLeft="263.027776997536,184.140274866563">
@@ -13147,82 +13240,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData.Paths[Derived Column Output]"
-          TopLeft="555.659717121162,187.245830366587">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="40.173607333563,0"
-              Start="0,0"
-              End="32.673607333563,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="32.673607333563,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="190.666666666667,42.6666666666667"
-          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\OLE DB S_SimpleNexus"
-          TopLeft="80.4999988824129,51.8124991718679" />
-        <NodeLayout
-          Size="212,42.6666666666667"
-          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\DC_NewLoansAuditColumns"
-          TopLeft="625.086796241036,55.6291656719397" />
-        <EdgeLayout
-          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData.Paths[OLE DB Source Output]"
-          TopLeft="271.16666554908,75.9208324064066">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="86.1770791260838,0"
-              Start="0,0"
-              End="78.6770791260838,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="78.6770791260838,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData.Paths[BorrFirstNameorLastName_NotTest]"
-          TopLeft="549.343744675163,77.8291656564425">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="75.7430515658725,0"
-              Start="0,0"
-              End="68.2430515658725,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="68.2430515658725,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-44.2248609358138,5,156.6927734375,10.7841796875"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData.Paths[Derived Column Output1]"
           TopLeft="731.086796241036,98.2958323386064">
           <EdgeLayout.Curve>
@@ -13256,11 +13273,79 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData.Paths[Derived Column Output]"
+          TopLeft="555.659717121162,187.245830366587">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="40.173607333563,0"
+              Start="0,0"
+              End="32.673607333563,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="32.673607333563,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData.Paths[BorrFirstNameorLastName_NotTest]"
+          TopLeft="549.343744675163,77.8291656564425">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="75.7430515658725,0"
+              Start="0,0"
+              End="68.2430515658725,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="68.2430515658725,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-44.2248609358138,5,156.6927734375,10.7841796875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData.Paths[OLE DB Source Output]"
+          TopLeft="271.16666554908,75.9208324064066">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="86.1770791260838,0"
+              Start="0,0"
+              End="78.6770791260838,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="78.6770791260838,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\OLE DB_StgTable">
+    design-time-name="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\OLE DB S_SimpleNexus">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13274,6 +13359,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\Fuzzy_MortgageInsuranceCompany">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\OLE DB_StgTable">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13305,19 +13403,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\SC_RestoreLendingPad&amp;LoadQuickenLoans\DFT_LoadSimpleNexusData\OLE DB S_SimpleNexus">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
