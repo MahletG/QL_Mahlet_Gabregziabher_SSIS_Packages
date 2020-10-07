@@ -11,27 +11,10 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Mahlet_Gabregziabher_QuickenLoan"
   DTS:PackageType="5"
-  DTS:VersionBuild="226"
-  DTS:VersionGUID="{5FDA9B6F-3CB7-4F73-AC6E-0DD2673536D3}">
+  DTS:VersionBuild="236"
+  DTS:VersionGUID="{1D3DB328-ADB0-4BD6-9B7C-EB91B6DB7DFB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
-  <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Duna.database.windows.net.UberWriter.UberWriter]"
-      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
-      DTS:DTSID="{A195F8DD-346F-4089-B8E2-3C7D6F71AFD4}"
-      DTS:ObjectName="Duna.database.windows.net.UberWriter.UberWriter">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=Duna.database.windows.net;User ID=UberWriter;Initial Catalog=UberWriter;Persist Security Info=True;Application Name=SSIS-Pkg_Mahlet_Gabregziabher_QuickenLoan-{A195F8DD-346F-4089-B8E2-3C7D6F71AFD4}Duna.database.windows.net.UberWriter.UberWrite;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA/tTmLu5oypGZ6T5CKOM1ewgBlAyYfzTiuGNjFyhG6zQAAAAAOgAAAAAIAACAAAABlQKyWolNKDLdktqhfDniKP6E2zaGclX3eIhLlIn4sryAAAADem5XmNvmHaSRzWplFOU2Oka4Ee/9ZGOKq/OXxrRQv+EAAAAD/Jqb4Jxm5hTsBskV44CABovzeiBYo5Ut+knfyKmOeh1sZXm8Vo15EFijF0lIwUk9agUnjnpU76m3TzNn1YTxD</DTS:Password>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-  </DTS:ConnectionManagers>
   <DTS:PackageParameters>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -44,7 +27,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACMQSplMQttAzCg8xkKy6O4yagDMb2V5mVyeP9+lqKMGQAAAAAOgAAAAAIAACAAAAAMQvSkSHoukIX3S+VUufFQfQEtsduuBLWTvJ45nu3ErSAAAABy1EGgkVVpB7Yhn19RGzguTR4Z3Gh+NPBGd8mmixpHN0AAAADmL6NrerLffaOgaX1inUl/9QV+DAzKdMelfh5nVRCC+hfPut/ugMszcNo6whddK+ZSG1caDkGMbECwLZoNJ0T5</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACTo0AXu8DtTHRKBfsS6P6KBx6twh+OHYu+b95r4k6YcQAAAAAOgAAAAAIAACAAAADXehMYGbb2fl0jfOlgQRPq14TQbMS1YAtetKSL0YbmpyAAAABJ9b1vAoODWoY0z0fK84ESoUz1Yy7x5Vr8Nv5pN7JKJEAAAABRjhO8iT0pt36Aru0O/FfkwTwBf1bllgXVTrYYccbOvK+enRgJc/XELG6M5+Ty3DeThdc7PLjIxJWD9VSRp8in</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -58,7 +41,35 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAPk10VtX/vcbEHnzKmagxE2zFhvSGHYdWF87+QAWTUkwAAAAAOgAAAAAIAACAAAAAgNqxRptC+bSn0+4i1BYQYp3gsIObUcjZAFKNyIH8fkCAAAAACGxzeStPo/g67I2i3yNvScaYejQ79t9plWsW8sItdjUAAAADw/FGMhgcKgaU8leitZIlMVZhcsjGtNiS8f+1tJRhPfZDpYlkElPUHgeNVsYosO954Kz3zAkJTQkVpwcmbGesa</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAALpipHvFAp1ikNaBK0wZAFaNPml5piyoDurB9OmHkFTAAAAAAOgAAAAAIAACAAAAA7IsQRue7LOB+q0miD2t+jcpgv+zsbwLVOhRnEMyUq1yAAAACAYv7ZsTgBrap1EHuYcZIoHwEISylJqSxaumqW6OnWEUAAAAAJlnlush9NhAPSGwqXuUqPf3IAObrBO+/vrEThJ8aizV2RXKKQdCv1emPsLICQP4CGu/QdKeFMEfOIW6U6Ob+I</DTS:Property>
+      </DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{815E5C28-E540-4384-BA04-7A0A2DDF7B8E}"
+      DTS:ObjectName="DunaDatabaseWindowsNetUberWriterUberWriter_Password2"
+      DTS:Sensitive="True">
+      <DTS:Property
+        DTS:Name="ParameterValue">
+        <DTS:Property
+          DTS:DataType="8"
+          DTS:Name="ParameterValue"
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAB72QDPM7enfu5dZGFF5JYUaDekYnaoUti/466ZrXcmgAAAAAOgAAAAAIAACAAAAAVch2clVhs9ifF6p56bHRTCMaj+qGZVS+LyDrtvNtMlSAAAAAh5FlTZxXu8JuG/zFRQmA+g5eXQqj07leuYqsdNZ3xm0AAAAAYl1dVHmFu85OnlpFfzdHbBoZH7nO3Zku0MQNw0W/pgsVxUyb7+N3stIWUiyFb2+osNOUEQ2REtI0cYpieTAny</DTS:Property>
+      </DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{B7F3A2BF-B3AD-4E24-B9B0-3F02A23ED7A4}"
+      DTS:ObjectName="DunaDatabaseWindowsNetUberWriterUberWriter_Password3"
+      DTS:Sensitive="True">
+      <DTS:Property
+        DTS:Name="ParameterValue">
+        <DTS:Property
+          DTS:DataType="8"
+          DTS:Name="ParameterValue"
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADO5cNdDZ5SRH76aaoFlqpQ6u/HhocUBp42mfjnEujbgQAAAAAOgAAAAAIAACAAAACBzenGCFyAnCun9iFtcxpg8l54MViPUXDhbUhLO7qXISAAAACT/dyUcRbNkFElWVniFzKo2ES78v8wFD5S+ZTU/2pjq0AAAAD+VTO03Le2N989jI29Nf4zi60kMi5IRNBUVAVHzfh1YTUJuSUROX1YdykV11kwSMYCaBS8QSDJr9mbO6ZsxtuX</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -72,7 +83,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varBody">
       <DTS:VariableValue
-        DTS:DataType="7">9/25/2020 7:48:10 PM</DTS:VariableValue>
+        DTS:DataType="7">10/7/2020 12:58:20 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -144,7 +155,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varSourceName">
       <DTS:VariableValue
-        DTS:DataType="8">sharepoint</DTS:VariableValue>
+        DTS:DataType="8">UberWriter</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -165,7 +176,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">9/25/2020 7:48:10 PM</DTS:VariableValue>
+        DTS:DataType="7">10/7/2020 12:58:20 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -241,8 +252,8 @@
               <connections>
                 <connection
                   refId="Package\DFT_UberWriter\ADO NET_UberWriter.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Duna.database.windows.net.UberWriter.UberWriter]"
-                  connectionManagerRefId="Package.ConnectionManagers[Duna.database.windows.net.UberWriter.UberWriter]"
+                  connectionManagerID="{DF4006CC-6624-4853-A01E-4C1CAD21E8E1}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Duna.database.windows.net.UberWriter.UberWriter]"
                   description="Managed connection manager"
                   name="IDbConnection" />
               </connections>
@@ -3421,6 +3432,54 @@
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
                           name="FriendlyExpression">(DT_STR,128,1252)UnderwriterRiskAssess</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[CloserFirstName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="128"
+                      lineageId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[CloserFirstName]"
+                      name="CloserFirstName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_STR,128,1252)[SUBSTRING](#{Package\DFT_UberWriter\ADO NET_UberWriter.Outputs[ADO NET Source Output].Columns[Closer_Name]},1,[FINDSTRING](#{Package\DFT_UberWriter\ADO NET_UberWriter.Outputs[ADO NET Source Output].Columns[Closer_Name]}," ",1) - 1)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,128,1252)SUBSTRING(Closer_Name,1,FINDSTRING(Closer_Name," ",1) - 1)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[CloserLastName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="128"
+                      lineageId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[CloserLastName]"
+                      name="CloserLastName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_STR,128,1252)[SUBSTRING](#{Package\DFT_UberWriter\ADO NET_UberWriter.Outputs[ADO NET Source Output].Columns[Closer_Name]},[FINDSTRING](#{Package\DFT_UberWriter\ADO NET_UberWriter.Outputs[ADO NET Source Output].Columns[Closer_Name]}," ",1) + 1,[LEN](#{Package\DFT_UberWriter\ADO NET_UberWriter.Outputs[ADO NET Source Output].Columns[Closer_Name]}) - [FINDSTRING](#{Package\DFT_UberWriter\ADO NET_UberWriter.Outputs[ADO NET Source Output].Columns[Closer_Name]}," ",1))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,128,1252)SUBSTRING(Closer_Name,FINDSTRING(Closer_Name," ",1) + 1,LEN(Closer_Name) - FINDSTRING(Closer_Name," ",1))</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -7881,6 +7940,176 @@
                           typeConverter="tcComparisonFlagsEx">0</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Inputs[Fuzzy Lookup Input].Columns[CloserFirstName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="CloserFirstName"
+                      lineageId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[CloserFirstName]">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Name of the reference table column with which the input column should be matched."
+                          name="JoinToReferenceColumn"
+                          state="escaped" />
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the match is a fuzzy or an exact match."
+                          name="JoinType"
+                          typeConverter="tcJoinType">2</property>
+                        <property
+                          dataType="System.Single"
+                          description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                          name="MinSimilarity">0</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                          name="FuzzyComparisonFlags"
+                          typeConverter="tcComparisonFlags">1</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                          name="FuzzyComparisonFlagsEx"
+                          typeConverter="tcComparisonFlagsEx">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Inputs[Fuzzy Lookup Input].Columns[CloserLastName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="CloserLastName"
+                      lineageId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[CloserLastName]">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Name of the reference table column with which the input column should be matched."
+                          name="JoinToReferenceColumn"
+                          state="escaped" />
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the match is a fuzzy or an exact match."
+                          name="JoinType"
+                          typeConverter="tcJoinType">2</property>
+                        <property
+                          dataType="System.Single"
+                          description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                          name="MinSimilarity">0</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                          name="FuzzyComparisonFlags"
+                          typeConverter="tcComparisonFlags">1</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                          name="FuzzyComparisonFlagsEx"
+                          typeConverter="tcComparisonFlagsEx">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Inputs[Fuzzy Lookup Input].Columns[DC_LoanID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="72"
+                      cachedName="DC_LoanID"
+                      lineageId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[DC_LoanID]">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Name of the reference table column with which the input column should be matched."
+                          name="JoinToReferenceColumn"
+                          state="escaped" />
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the match is a fuzzy or an exact match."
+                          name="JoinType"
+                          typeConverter="tcJoinType">2</property>
+                        <property
+                          dataType="System.Single"
+                          description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                          name="MinSimilarity">0</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                          name="FuzzyComparisonFlags"
+                          typeConverter="tcComparisonFlags">1</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                          name="FuzzyComparisonFlagsEx"
+                          typeConverter="tcComparisonFlagsEx">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Inputs[Fuzzy Lookup Input].Columns[DC_ApprovalDate]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="DC_ApprovalDate"
+                      lineageId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[DC_ApprovalDate]">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Name of the reference table column with which the input column should be matched."
+                          name="JoinToReferenceColumn"
+                          state="escaped" />
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the match is a fuzzy or an exact match."
+                          name="JoinType"
+                          typeConverter="tcJoinType">2</property>
+                        <property
+                          dataType="System.Single"
+                          description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                          name="MinSimilarity">0</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                          name="FuzzyComparisonFlags"
+                          typeConverter="tcComparisonFlags">1</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                          name="FuzzyComparisonFlagsEx"
+                          typeConverter="tcComparisonFlagsEx">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Inputs[Fuzzy Lookup Input].Columns[DC_PropertyOccupancyType]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="DC_PropertyOccupancyType"
+                      lineageId="Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[DC_PropertyOccupancyType]">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Name of the reference table column with which the input column should be matched."
+                          name="JoinToReferenceColumn"
+                          state="escaped" />
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the match is a fuzzy or an exact match."
+                          name="JoinType"
+                          typeConverter="tcJoinType">2</property>
+                        <property
+                          dataType="System.Single"
+                          description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                          name="MinSimilarity">0</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                          name="FuzzyComparisonFlags"
+                          typeConverter="tcComparisonFlags">1</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                          name="FuzzyComparisonFlagsEx"
+                          typeConverter="tcComparisonFlagsEx">0</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -9982,6 +10211,31 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_ApprovalDate]"
+                      codePage="1252"
+                      dataType="str"
+                      length="128"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_ApprovalDate]"
+                      name="DC_ApprovalDate">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the reference table column that is copied to the output for each match result."
+                          name="CopyFromReferenceColumn"
+                          state="escaped" />
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
+                          name="SourceInputColumnLineageID">#{Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[DC_ApprovalDate]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the column is used to indicate confidence or similarity."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
                       refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_BorrAddress]"
                       codePage="1252"
                       dataType="str"
@@ -10132,12 +10386,12 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_Closer_Name]"
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_CloserFullName]"
                       codePage="1252"
                       dataType="str"
                       length="128"
-                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_Closer_Name]"
-                      name="DC_Closer_Name">
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_CloserFullName]"
+                      name="DC_CloserFullName">
                       <properties>
                         <property
                           dataType="System.Null"
@@ -10453,6 +10707,31 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_LoanID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="72"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_LoanID]"
+                      name="DC_LoanID">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the reference table column that is copied to the output for each match result."
+                          name="CopyFromReferenceColumn"
+                          state="escaped" />
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
+                          name="SourceInputColumnLineageID">#{Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[DC_LoanID]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the column is used to indicate confidence or similarity."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
                       refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_LoanOfficerEmail]"
                       dataType="wstr"
                       length="100"
@@ -10725,6 +11004,31 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_PropertyOccupancyType]"
+                      codePage="1252"
+                      dataType="str"
+                      length="128"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_PropertyOccupancyType]"
+                      name="DC_PropertyOccupancyType">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the reference table column that is copied to the output for each match result."
+                          name="CopyFromReferenceColumn"
+                          state="escaped" />
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
+                          name="SourceInputColumnLineageID">#{Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[DC_PropertyOccupancyType]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the column is used to indicate confidence or similarity."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
                       refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_)QAStatus]"
                       codePage="1252"
                       dataType="str"
@@ -10950,6 +11254,56 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[CloserFirstName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="128"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[CloserFirstName]"
+                      name="CloserFirstName">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the reference table column that is copied to the output for each match result."
+                          name="CopyFromReferenceColumn"
+                          state="escaped" />
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
+                          name="SourceInputColumnLineageID">#{Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[CloserFirstName]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the column is used to indicate confidence or similarity."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[CloserLastName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="128"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[CloserLastName]"
+                      name="CloserLastName">
+                      <properties>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the reference table column that is copied to the output for each match result."
+                          name="CopyFromReferenceColumn"
+                          state="escaped" />
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
+                          name="SourceInputColumnLineageID">#{Package\DFT_UberWriter\DC_NewLoansAuditColumns.Outputs[Derived Column Output].Columns[CloserLastName]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the column is used to indicate confidence or similarity."
+                          name="ColumnType"
+                          typeConverter="tcColumnType">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
                       refId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[MarketSourceCode]"
                       codePage="1252"
                       dataType="str"
@@ -11110,7 +11464,7 @@ where [refTable].[MarketSourceCode] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\DFT_UberWriter\4304:invalid};</property>
+                  name="ParameterMap">#{Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[SourceName]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -11539,13 +11893,13 @@ where [refTable].[MarketSourceCode] = ?</property>
                       externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[BorrLastName]"
                       lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[BorrLastName]" />
                     <inputColumn
-                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[DC_Closer_Name]"
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[DC_CloserFullName]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="128"
-                      cachedName="DC_Closer_Name"
+                      cachedName="DC_CloserFullName"
                       externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[CloserFullName]"
-                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_Closer_Name]" />
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_CloserFullName]" />
                     <inputColumn
                       refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[ClosingDisclosureRecievedDate]"
                       cachedDataType="dbTimeStamp"
@@ -11865,6 +12219,172 @@ where [refTable].[MarketSourceCode] = ?</property>
                       cachedName="DC_IsBorrSelfEmployeedFlag"
                       externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[IsBorrSelfEmployeedFlag]"
                       lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_IsBorrSelfEmployeedFlag]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[SourceName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="SourceName"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[SourceName]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[SourceName]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[AnnualPercentageRate]"
+                      cachedDataType="numeric"
+                      cachedName="AnnualPercentageRate"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[AnnualPercentageRate]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[AnnualPercentageRate]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[AppraisedValue]"
+                      cachedDataType="numeric"
+                      cachedName="AppraisedValue"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[AppraisedValue]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[AppraisedValue]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[BorrGender]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="BorrGender"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[BorrGender]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[BorrGender]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[BorrNoYearsOnJob]"
+                      cachedDataType="numeric"
+                      cachedName="BorrNoYearsOnJob"
+                      cachedPrecision="24"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[BorrNoYearsOnJob]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[BorrNoYearsOnJob]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[BorrTotalIncome]"
+                      cachedDataType="numeric"
+                      cachedName="BorrTotalIncome"
+                      cachedPrecision="26"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[BorrTotalIncome]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[BorrTotalIncome]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[InterestRate]"
+                      cachedDataType="numeric"
+                      cachedName="InterestRate"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[InterestRate]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[InterestRate]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[IntialLoanAmount]"
+                      cachedDataType="numeric"
+                      cachedName="IntialLoanAmount"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[IntialLoanAmount]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[IntialLoanAmount]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[LoanTerm]"
+                      cachedDataType="numeric"
+                      cachedName="LoanTerm"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[LoanTerm]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[LoanTerm]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[LoanToValueRatio]"
+                      cachedDataType="numeric"
+                      cachedName="LoanToValueRatio"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[LoanToValueRatio]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[LoanToValueRatio]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[OriginationFee]"
+                      cachedDataType="numeric"
+                      cachedName="OriginationFee"
+                      cachedPrecision="27"
+                      cachedScale="13"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[OriginationFee]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[OriginationFee]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[LoanOfficer]"
+                      cachedDataType="wstr"
+                      cachedLength="101"
+                      cachedName="LoanOfficer"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[LoanOfficerFullName]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[LoanOfficer]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[TotalFees]"
+                      cachedDataType="numeric"
+                      cachedName="TotalFees"
+                      cachedPrecision="27"
+                      cachedScale="13"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[TotalFees]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[TotalFees]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[TotalLoanAmt]"
+                      cachedDataType="numeric"
+                      cachedName="TotalLoanAmt"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[TotalLoanAmt]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[TotalLoanAmt]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[BottomQualificationRatios]"
+                      cachedDataType="numeric"
+                      cachedName="BottomQualificationRatios"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[BottomQualificationRatios]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[BottomQualificationRatios]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[DC_)QAStatus]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="DC_)QAStatus"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[QAStatus]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_)QAStatus]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[CombinedLoanToValueRatio]"
+                      cachedDataType="numeric"
+                      cachedName="CombinedLoanToValueRatio"
+                      cachedPrecision="23"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[CombinedLoanToValueRatio]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[CombinedLoanToValueRatio]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[CloserFirstName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="CloserFirstName"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[CloserFirstName]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[CloserFirstName]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[CloserLastName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="CloserLastName"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[CloserLastName]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[CloserLastName]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[DC_LoanID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="72"
+                      cachedName="DC_LoanID"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[LoanID]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_LoanID]" />
+                    <inputColumn
+                      refId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].Columns[DC_PropertyOccupancyType]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="128"
+                      cachedName="DC_PropertyOccupancyType"
+                      externalMetadataColumnId="Package\DFT_UberWriter\OLE DB_StgTable.Inputs[OLE DB Destination Input].ExternalColumns[PropertyOccupancyType]"
+                      lineageId="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany.Outputs[Fuzzy Lookup Output].Columns[DC_PropertyOccupancyType]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -12522,7 +13042,7 @@ where [refTable].[MarketSourceCode] = ?</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FB4495C5-B7A9-4469-8EB9-3214CAD6A7AA}"
-          SQLTask:SqlStatementSource="IF EXISTS (   SELECT [SourceName]&#xA;                    , MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;                      FROM  [dbo].[Stg_Mahlet_Gabregziabher_QL]    &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;GROUP BY [SourceName]   )&#xA;&#x9;&#x9;&#x9;BEGIN&#xA;&#x9;&#x9;SELECT [SourceName]&#xA;&#x9;&#x9;, MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;&#x9;&#x9;FROM  [dbo].[Stg_Mahlet_Gabregziabher_QL]&#xA;&#x9;&#x9;GROUP BY [SourceName]&#xA;&#x9;&#x9;END&#xA;&#x9;&#x9;ELSE&#xA;&#x9;&#x9;BEGIN&#xA;&#x9;&#x9;SELECT '?' AS [SourceName],DATEADD(YYYY,-4,GETDATE()) AS MaxLastModifiedDate&#xA;&#x9;&#x9;END" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="IF EXISTS&#xA;(&#xA;SELECT&#xA;   MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;  FROM    &#x9;[dbo].[Stg_Mahlet_Gabregziabher_QL]&#x9;where sourcename= 'sharepoint'&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;   )&#xA;&#x9;&#x9;&#x9;BEGIN&#xA;&#x9;&#x9;SELECT&#xA;   MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;  FROM    &#x9;[dbo].[Stg_Mahlet_Gabregziabher_QL]&#x9;where sourcename= 'sharepoint'&#x9;&#x9;&#xA;&#x9;&#x9;END&#xA;&#x9;&#x9;ELSE&#xA;&#x9;&#x9;BEGIN&#xA;&#x9;&#x9;SELECT  DATEADD(YYYY,-120,GETDATE()) AS MaxLastModifiedDate&#xA;&#x9;&#x9;END" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -12756,6 +13276,36 @@ where [refTable].[MarketSourceCode] = ?</property>
               ReadOnlyVariables="System::PackageName,User::varFromEmail,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail"
               ReadWriteVariables="System::ErrorCode,System::ErrorDescription,User::varTimeStamp">
               <ProjectItem
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_d9dff51c1cec4909b7121b440cd5f94b")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_d9dff51c1cec4909b7121b440cd5f94b")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -12874,121 +13424,6 @@ where [refTable].[MarketSourceCode] = ?</property>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-              <ProjectItem
-                Name="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{092F4E10-E2BF-4FE6-BF88-C29F70A55593}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_d9dff51c1cec4909b7121b440cd5f94b</RootNamespace>
-    <AssemblyName>ST_d9dff51c1cec4909b7121b440cd5f94b</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d9dff51c1cec4909b7121b440cd5f94b.Properties.Settings.get_Default():ST_d9dff51c1cec4909b7121b440cd5f94b.Properties.Sett" +
-    "ings")]
-
-namespace ST_d9dff51c1cec4909b7121b440cd5f94b.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -13110,11 +13545,11 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b
                 SmtpServer.Credentials = new System.Net.NetworkCredential(SendMailFrom, Password);
                 SmtpServer.EnableSsl = true;
                 SmtpServer.Send(email);
-                MessageBox.Show("Email was successfully Sent");
+                //MessageBox.Show("Email was successfully Sent");
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                //MessageBox.Show(ex.ToString());
             } 
             Dts.TaskResult = (int)ScriptResults.Success;
 		}
@@ -13143,7 +13578,7 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b
     <msb:CodeName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_d9dff51c1cec4909b7121b440cd5f94b</msb:DisplayName>
-    <msb:ProjectId>{6B6CC9A0-EE56-47F0-8218-5F6595D62513}</msb:ProjectId>
+    <msb:ProjectId>{E6595501-D3A1-4CF8-91BE-B96E980D9149}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj" />
@@ -13156,35 +13591,120 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+                Name="ST_d9dff51c1cec4909b7121b440cd5f94b.csproj"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{092F4E10-E2BF-4FE6-BF88-C29F70A55593}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_d9dff51c1cec4909b7121b440cd5f94b</RootNamespace>
+    <AssemblyName>ST_d9dff51c1cec4909b7121b440cd5f94b</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+              <ProjectItem
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_d9dff51c1cec4909b7121b440cd5f94b")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_d9dff51c1cec4909b7121b440cd5f94b")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d9dff51c1cec4909b7121b440cd5f94b.Properties.Settings.get_Default():ST_d9dff51c1cec4909b7121b440cd5f94b.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_d9dff51c1cec4909b7121b440cd5f94b.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.settings"
                 Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -13265,15 +13785,15 @@ namespace ST_d9dff51c1cec4909b7121b440cd5f94b.Properties {
               <BinaryItem
                 Name="ST_d9dff51c1cec4909b7121b440cd5f94b.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDABk/VF8AAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAIjMA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAOw0dl8AAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAdjIA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAANAyAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAACQyAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAKBMAAAAgAAAAFAAAAAIA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAfBIAAAAgAAAAFAAAAAIA
 AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAE
-MwAAAAAAAEgAAAACAAUAzCIAAEwPAAABAAAAAAAAABgyAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswBQD3AQAAAQAAEQIoEAAACm8RAAAKcgEAAHBvEgAACm8T
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAABY
+MgAAAAAAAEgAAAACAAUAuCIAALQOAAABAAAAAAAAAGwxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswBQDiAQAAAQAAEQIoEAAACm8RAAAKcgEAAHBvEgAACm8T
 AAAKbxQAAAoKAigQAAAKbxEAAApyIwAAcG8SAAAKbxMAAApvFAAACgsCKBAAAApvEQAACnJJAABw
 bxIAAApvEwAACm8UAAAKDB2NHQAAASUWAigQAAAKbxEAAApyawAAcG8SAAAKbxMAAApvFAAACqIl
 F3KTAABwoiUYAigQAAAKbxEAAApylwAAcG8SAAAKbxMAAApvFAAACqIlGXKTAABwoiUaAigQAAAK
@@ -13281,97 +13801,97 @@ bxEAAApyuwAAcG8SAAAKbxMAAApvFAAACqIlG3KTAABwoiUcAigQAAAKbxEAAApy7QAAcG8SAAAK
 bxMAAApvFAAACqIoFQAACg0CKBAAAApvEQAACnITAQBwbxIAAApvEwAACm8UAAAKEwQCKBAAAApv
 EQAACnI7AQBwbxIAAApvEwAACm8UAAAKEwUCKBAAAApvEQAACnJfAQBwbxIAAApvEwAACm8UAAAK
 KBYAAAoTBnMXAAAKEwcRBHMYAAAKEQdvGQAACgZvGgAAChEHB3MbAAAKbxwAAAoRBwhvHQAAChEH
-CW8eAAAKJREGbx8AAAolBxEFcyAAAApvIQAACiUXbyIAAAoRB28jAAAKco8BAHAoJAAACibeDW8U
-AAAKKCQAAAom3gACKBAAAAoWbyUAAAoqAAEQAAAAAHQBad0BDRAAAAEeAigmAAAKKh4CKCcAAAoq
-rn4BAAAELR5yxwEAcNADAAACKCgAAApvKQAACnMqAAAKgAEAAAR+AQAABCoafgIAAAQqHgKAAgAA
-BCoafgMAAAQqHgIoKwAACioucwgAAAaAAwAABCoAAEJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5
-AAAAAAUAbAAAAHQEAAAjfgAA4AQAAHgGAAAjU3RyaW5ncwAAAABYCwAAPAIAACNVUwCUDQAAEAAA
-ACNHVUlEAAAApA0AAKgBAAAjQmxvYgAAAAAAAAACAAABVx2iAQkDAAAA+gEzABYAAAEAAAAoAAAA
-BQAAAAYAAAAJAAAAAQAAACsAAAACAAAAEAAAAAEAAAACAAAAAwAAAAQAAAABAAAABQAAAAEAAAAB
-AAAAAAC4AwEAAAAAAAYARgLGBAYA1QLGBAYAkgGzBA8AOgUAAAYAvwFNBAYAKQJNBAYACgJNBAYA
-vAJNBAYAZgJNBAYAfwJNBAYA1gFNBAYA8QEDAwoAmgJFAwoACwFFAw4AfQCoAwYAdQT3AwYABwT3
-AwYAdQGzBAYA5QX3AwYAlgTmBAYAhgQ4BA4ARQGSAw4ApgGSAw4AJwEjBAYAWgHGBAoAgANFAxIA
-fAW2ABIAiQC2AAYAHwP3AwYAAQD3Aw4AKwaoAw4AXwSoAw4AvAWoAw4AbgP4BQ4APwb4BRYAVwaf
-BRYADwafBQYA1gD3AwYAkgD3AwYAbwZNBAAAAAAHAAAAAAABAAEAAQAQABgENwA5AAEAAQAAABAA
-7QRJBU0AAQADAAABEACGBUkFYQADAAcAAwEAANAFAABFAAQACgARAAwEqQARAPsArQARAG0AsQAG
-Bi8AtQBWgLQFuABWgNsAuABQIAAAAACGAB4EBgABAGQiAAAAAIYYpgQGAAEAbCIAAAAAgximBAYA
-AQB0IgAAAACTCJIEvAABAKAiAAAAAJMI4wDBAAEApyIAAAAAkwjvAMYAAQCvIgAAAACWCAMGzAAC
-ALYiAAAAAIYYpgQGAAIAviIAAAAAkRisBNEAAgAAAAEA/QIJAKYEAQARAKYEBgAZAKYECgApAKYE
-EAAxAKYEEAA5AKYEEABBAKYEEABJAKYEEABRAKYEEABZAKYEEABhAKYEEABpAKYEBgCRAKYEBgC5
-AKYEFQDJAKYEBgBxAMgFJwDRAHgFLADZAO4DMQDhAPMCNwCZAB0DOwDpAN4FPwDxAD8BRQB5AKYE
-BgD5AKYEEAB5AH8ESgABAWQAEAAJAaYEEAB5AP4DUAB5AOwFEAB5AGIGEAD5ADYGAQARAaYEVwD5
-AI8FXQD5AOADZAD5AGgAaQAhAVIGbwDRABwGAQBxAKYEBgCZAKYEBgAxAaQAdgAxAWsGfwChAKYE
-hQDBAKYEBgAIABQAnwAIABgApAApAHMADAEuAAsA5AAuABMA7QAuABsADAEuACMAFQEuACsAPgEu
-ADMAPgEuADsAPgEuAEMAFQEuAEsARAEuAFMAPgEuAFsAWwFDAGMApABJAHMADAFhAHsApABjAGsA
-pAAbAAMAAQAEAAMAAACWBNUAAAADAdoAAAAHBt8AAgAEAAMAAgAFAAUAAQAGAAUAAgAHAAcABIAA
-AAEAAACBHeyYAAAAAAAANwAAAAQAAAAAAAAAAAAAAI0AWwAAAAAADwAAAAAAAAAAAAAAlgAmAwAA
-AAAEAAAAAAAAAAAAAACNAPcDAAAAAA8AAAAAAAAAAAAAAJYAEAAAAAAABAAAAAAAAAAAAAAAjQCf
-BQAAAAAAAAAAAQAAAPcEAAAFAAIAAAAAAABJbnQzMgA8TW9kdWxlPgBNaWNyb3NvZnQuU3FsU2Vy
-dmVyLk1hbmFnZWREVFMAdmFsdWVfXwBTVF9kOWRmZjUxYzFjZWM0OTA5YjcxMjFiNDQwY2Q1Zjk0
-YgBtc2NvcmxpYgBBZGQAU2VuZABkZWZhdWx0SW5zdGFuY2UATWFpbE1lc3NhZ2UAVmFyaWFibGUA
-UnVudGltZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21IYW5kbGUATWljcm9zb2Z0LlNxbFNlcnZlci5E
-dHMuUnVudGltZQBUeXBlAEZhaWx1cmUAZ2V0X0N1bHR1cmUAc2V0X0N1bHR1cmUAcmVzb3VyY2VD
-dWx0dXJlAFZTVEFSVFNjcmlwdE9iamVjdE1vZGVsQmFzZQBBcHBsaWNhdGlvblNldHRpbmdzQmFz
-ZQBQYXJzZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBE
-ZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJv
-d3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtB
-dHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0
-dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlv
-bnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0
-cmlidXRlAFNTSVNTY3JpcHRUYXNrRW50cnlQb2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlB
-dHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUAZ2V0X1ZhbHVlAHZhbHVlAFN5
-c3RlbS5SdW50aW1lLlZlcnNpb25pbmcAVG9TdHJpbmcATWljcm9zb2Z0LlNxbFNlcnZlci5TY3Jp
-cHRUYXNrAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlRhc2tzLlNjcmlwdFRhc2sATmV0d29ya0Ny
-ZWRlbnRpYWwAU2NyaXB0T2JqZWN0TW9kZWwAU3lzdGVtLkNvbXBvbmVudE1vZGVsAFN5c3RlbS5O
-ZXQuTWFpbABTVF9kOWRmZjUxYzFjZWM0OTA5YjcxMjFiNDQwY2Q1Zjk0Yi5kbGwAc2V0X0VuYWJs
-ZVNzbABnZXRfSXRlbQBTeXN0ZW0Ac2V0X0Zyb20ARW51bQByZXNvdXJjZU1hbgBTY3JpcHRNYWlu
-AFN5c3RlbS5Db25maWd1cmF0aW9uAFN5c3RlbS5HbG9iYWxpemF0aW9uAFN5c3RlbS5SZWZsZWN0
-aW9uAE1haWxBZGRyZXNzQ29sbGVjdGlvbgBFeGNlcHRpb24AZ2V0X1RvAEN1bHR1cmVJbmZvAGdl
-dF9SZXNvdXJjZU1hbmFnZXIALmN0b3IALmNjdG9yAFN5c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0u
-UnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNvdXJjZXMAU1RfZDlkZmY1MWMxY2Vj
-NDkwOWI3MTIxYjQ0MGNkNWY5NGIuUHJvcGVydGllcy5SZXNvdXJjZXMucmVzb3VyY2VzAERlYnVn
-Z2luZ01vZGVzAFNUX2Q5ZGZmNTFjMWNlYzQ5MDliNzEyMWI0NDBjZDVmOTRiLlByb3BlcnRpZXMA
-Z2V0X1ZhcmlhYmxlcwBTZXR0aW5ncwBzZXRfQ3JlZGVudGlhbHMAU3lzdGVtLldpbmRvd3MuRm9y
-bXMAU3VjY2VzcwBNYWlsQWRkcmVzcwBnZXRfRHRzAFNjcmlwdFJlc3VsdHMAQ29uY2F0AE9iamVj
-dABzZXRfU3ViamVjdABTeXN0ZW0uTmV0AGdldF9EZWZhdWx0AERpYWxvZ1Jlc3VsdABzZXRfVGFz
-a1Jlc3VsdABTbXRwQ2xpZW50AHNldF9Qb3J0AElDcmVkZW50aWFsc0J5SG9zdABTaG93AE1lc3Nh
-Z2VCb3gAc2V0X0JvZHkAZ2V0X0Fzc2VtYmx5AAAhVQBzAGUAcgA6ADoAdgBhAHIAVABvAEUAbQBh
-AGkAbAAAJVUAcwBlAHIAOgA6AHYAYQByAEYAcgBvAG0ARQBtAGEAaQBsAAAhVQBzAGUAcgA6ADoA
-dgBhAHIAUwB1AGIAagBlAGMAdAAAJ1MAeQBzAHQAZQBtADoAOgBQAGEAYwBrAGEAZwBlAE4AYQBt
-AGUAAAMgAAAjUwB5AHMAdABlAG0AOgA6AEUAcgByAG8AcgBDAG8AZABlAAAxUwB5AHMAdABlAG0A
-OgA6AEUAcgByAG8AcgBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AACVVAHMAZQByADoAOgB2AGEAcgBU
-AGkAbQBlAFMAdABhAG0AcAAAJ1UAcwBlAHIAOgA6AHYAYQByAFMAbQB0AHAAQwBsAGkAZQBuAHQA
-ACNVAHMAZQByADoAOgB2AGEAcgBQAGEAcwBzAHcAbwByAGQAAC9VAHMAZQByADoAOgB2AGEAcgBT
-AG0AdABwAFMAZQByAHYAZQByAFAAbwByAHQAADdFAG0AYQBpAGwAIAB3AGEAcwAgAHMAdQBjAGMA
-ZQBzAHMAZgB1AGwAbAB5ACAAUwBlAG4AdAAAcVMAVABfAGQAOQBkAGYAZgA1ADEAYwAxAGMAZQBj
-ADQAOQAwADkAYgA3ADEAMgAxAGIANAA0ADAAYwBkADUAZgA5ADQAYgAuAFAAcgBvAHAAZQByAHQA
-aQBlAHMALgBSAGUAcwBvAHUAcgBjAGUAcwAAAAAAH3Wb9XJ2RUurl3JYMhmWlgAEIAEBCAMgAAEF
-IAEBEREEIAEBDgUgAQERWQsHCA4ODg4ODggSPQQgABJpBCAAEm0FIAEScRwDIAAcAyAADgUAAQ4d
-DgQAAQgOBSAAEoCBBiABARKAhQUgAgEODgYgAQESgI0EIAEBAgUgAQESPQYAARGAlQ4IAAESgJkR
-gJ0FIAASgKEHIAIBDhKAoQi3elxWGTTgiQiJhF3NgIDMkQQAAAAABAEAAAADBhJRAwYSVQMGEhAC
+CW8eAAAKJREGbx8AAAolBxEFcyAAAApvIQAACiUXbyIAAAoRB28jAAAK3gMm3gACKBAAAAoWbyQA
+AAoqAAABEAAAAAB0AV7SAQMQAAABHgIoJQAACioeAigmAAAKKq5+AQAABC0eco8BAHDQAwAAAign
+AAAKbygAAApzKQAACoABAAAEfgEAAAQqGn4CAAAEKh4CgAIAAAQqGn4DAAAEKh4CKCoAAAoqLnMI
+AAAGgAMAAAQqAABCU0pCAQABAAAAAAAMAAAAdjQuMC4zMDMxOQAAAAAFAGwAAABMBAAAI34AALgE
+AABIBgAAI1N0cmluZ3MAAAAAAAsAAAQCAAAjVVMABA0AABAAAAAjR1VJRAAAABQNAACgAQAAI0Js
+b2IAAAAAAAAAAgAAAVcdogEJAwAAAPoBMwAWAAABAAAAJgAAAAUAAAAGAAAACQAAAAEAAAAqAAAA
+AgAAABAAAAABAAAAAgAAAAMAAAAEAAAAAQAAAAQAAAABAAAAAQAAAAAAuAMBAAAAAAAGAEYCxgQG
+ANUCxgQGAJIBswQPADoFAAAGAL8BTQQGACkCTQQGAAoCTQQGALwCTQQGAGYCTQQGAH8CTQQGANYB
+TQQGAPEBAwMKAJoCRQMKAAsBRQMOAH0AqAMGAHUE9wMGAAcE9wMGAHUBswQGANAF9wMGAJYE5gQG
+AIYEOAQOAEUBkgMOAKYBkgMOACcBIwQGAFoBxgQKAIADRQMSAHwFtgASAIkAtgAGAB8D9wMGAAEA
+9wMOAAkGqAMOAF8EqAMOAKcFqAMOAG4D4wUOAB0G4wUGANYA9wMGAJIA9wMGAD0GTQQAAAAABwAA
+AAAAAQABAAEAEAAYBDcAOQABAAEAAAAQAO0ESQVNAAEAAwAAARAAhgVJBWEAAwAHAAMBAAC7BQAA
+RQAEAAoAEQAMBKIAEQD7AKYAEQBtAKoABgYvAK4AVoCfBbEAVoDbALEAUCAAAAAAhgAeBAYAAQBQ
+IgAAAACGGKYEBgABAFgiAAAAAIMYpgQGAAEAYCIAAAAAkwiSBLUAAQCMIgAAAACTCOMAugABAJMi
+AAAAAJMI7wC/AAEAmyIAAAAAlgjuBcUAAgCiIgAAAACGGKYEBgACAKoiAAAAAJEYrATKAAIAAAAB
+AP0CCQCmBAEAEQCmBAYAGQCmBAoAKQCmBBAAMQCmBBAAOQCmBBAAQQCmBBAASQCmBBAAUQCmBBAA
+WQCmBBAAYQCmBBAAaQCmBAYAkQCmBAYAuQCmBBUAyQCmBAYAcQCzBScA0QB4BSwA2QDuAzEA4QDz
+AjcAmQAdAzsA6QDJBT8A8QA/AUUAeQCmBAYA+QCmBBAAeQB/BEoAAQFkABAACQGmBBAAeQD+A1AA
+eQDXBRAAeQAwBhAA+QAUBgEAEQGmBFcA+QCPBV0A+QDgA2QA+QBoAGkA0QD6BQEAcQCmBAYAmQCm
+BAYAIQGkAG8AIQE5BngAoQCmBH4AwQCmBAYACAAUAJgACAAYAJ0AKQBzAAUBLgALAN0ALgATAOYA
+LgAbAAUBLgAjAA4BLgArADcBLgAzADcBLgA7ADcBLgBDAA4BLgBLAD0BLgBTADcBLgBbAFQBQwBj
+AJ0ASQBzAAUBYQB7AJ0AYwBrAJ0AGwADAAEABAADAAAAlgTOAAAAAwHTAAAA8gXYAAIABAADAAIA
+BQAFAAEABgAFAAIABwAHAASAAAABAAAAmx1WcAAAAAAAADcAAAAEAAAAAAAAAAAAAACGAFsAAAAA
+AA8AAAAAAAAAAAAAAI8AJgMAAAAABAAAAAAAAAAAAAAAhgD3AwAAAAAPAAAAAAAAAAAAAACPABAA
+AAAAAAAAAAABAAAA9wQAAAUAAgAAAABJbnQzMgA8TW9kdWxlPgBNaWNyb3NvZnQuU3FsU2VydmVy
+Lk1hbmFnZWREVFMAdmFsdWVfXwBTVF9kOWRmZjUxYzFjZWM0OTA5YjcxMjFiNDQwY2Q1Zjk0YgBt
+c2NvcmxpYgBBZGQAU2VuZABkZWZhdWx0SW5zdGFuY2UATWFpbE1lc3NhZ2UAVmFyaWFibGUAUnVu
+dGltZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21IYW5kbGUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMu
+UnVudGltZQBUeXBlAEZhaWx1cmUAZ2V0X0N1bHR1cmUAc2V0X0N1bHR1cmUAcmVzb3VyY2VDdWx0
+dXJlAFZTVEFSVFNjcmlwdE9iamVjdE1vZGVsQmFzZQBBcHBsaWNhdGlvblNldHRpbmdzQmFzZQBQ
+YXJzZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1
+Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJvd3Nh
+YmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRy
+aWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJp
+YnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNB
+dHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0cmli
+dXRlAFNTSVNTY3JpcHRUYXNrRW50cnlQb2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRy
+aWJ1dGUAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUAZ2V0X1ZhbHVlAHZhbHVlAFN5c3Rl
+bS5SdW50aW1lLlZlcnNpb25pbmcAVG9TdHJpbmcATWljcm9zb2Z0LlNxbFNlcnZlci5TY3JpcHRU
+YXNrAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlRhc2tzLlNjcmlwdFRhc2sATmV0d29ya0NyZWRl
+bnRpYWwAU2NyaXB0T2JqZWN0TW9kZWwAU3lzdGVtLkNvbXBvbmVudE1vZGVsAFN5c3RlbS5OZXQu
+TWFpbABTVF9kOWRmZjUxYzFjZWM0OTA5YjcxMjFiNDQwY2Q1Zjk0Yi5kbGwAc2V0X0VuYWJsZVNz
+bABnZXRfSXRlbQBTeXN0ZW0Ac2V0X0Zyb20ARW51bQByZXNvdXJjZU1hbgBTY3JpcHRNYWluAFN5
+c3RlbS5Db25maWd1cmF0aW9uAFN5c3RlbS5HbG9iYWxpemF0aW9uAFN5c3RlbS5SZWZsZWN0aW9u
+AE1haWxBZGRyZXNzQ29sbGVjdGlvbgBFeGNlcHRpb24AZ2V0X1RvAEN1bHR1cmVJbmZvAGdldF9S
+ZXNvdXJjZU1hbmFnZXIALmN0b3IALmNjdG9yAFN5c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVu
+dGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNvdXJjZXMAU1RfZDlkZmY1MWMxY2VjNDkw
+OWI3MTIxYjQ0MGNkNWY5NGIuUHJvcGVydGllcy5SZXNvdXJjZXMucmVzb3VyY2VzAERlYnVnZ2lu
+Z01vZGVzAFNUX2Q5ZGZmNTFjMWNlYzQ5MDliNzEyMWI0NDBjZDVmOTRiLlByb3BlcnRpZXMAZ2V0
+X1ZhcmlhYmxlcwBTZXR0aW5ncwBzZXRfQ3JlZGVudGlhbHMAU3VjY2VzcwBNYWlsQWRkcmVzcwBn
+ZXRfRHRzAFNjcmlwdFJlc3VsdHMAQ29uY2F0AE9iamVjdABzZXRfU3ViamVjdABTeXN0ZW0uTmV0
+AGdldF9EZWZhdWx0AHNldF9UYXNrUmVzdWx0AFNtdHBDbGllbnQAc2V0X1BvcnQASUNyZWRlbnRp
+YWxzQnlIb3N0AHNldF9Cb2R5AGdldF9Bc3NlbWJseQAAAAAhVQBzAGUAcgA6ADoAdgBhAHIAVABv
+AEUAbQBhAGkAbAAAJVUAcwBlAHIAOgA6AHYAYQByAEYAcgBvAG0ARQBtAGEAaQBsAAAhVQBzAGUA
+cgA6ADoAdgBhAHIAUwB1AGIAagBlAGMAdAAAJ1MAeQBzAHQAZQBtADoAOgBQAGEAYwBrAGEAZwBl
+AE4AYQBtAGUAAAMgAAAjUwB5AHMAdABlAG0AOgA6AEUAcgByAG8AcgBDAG8AZABlAAAxUwB5AHMA
+dABlAG0AOgA6AEUAcgByAG8AcgBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AACVVAHMAZQByADoAOgB2
+AGEAcgBUAGkAbQBlAFMAdABhAG0AcAAAJ1UAcwBlAHIAOgA6AHYAYQByAFMAbQB0AHAAQwBsAGkA
+ZQBuAHQAACNVAHMAZQByADoAOgB2AGEAcgBQAGEAcwBzAHcAbwByAGQAAC9VAHMAZQByADoAOgB2
+AGEAcgBTAG0AdABwAFMAZQByAHYAZQByAFAAbwByAHQAAHFTAFQAXwBkADkAZABmAGYANQAxAGMA
+MQBjAGUAYwA0ADkAMAA5AGIANwAxADIAMQBiADQANAAwAGMAZAA1AGYAOQA0AGIALgBQAHIAbwBw
+AGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAAABim6/Fb089EoqCYa7dbApgABCAB
+AQgDIAABBSABARERBCABAQ4FIAEBEVkLBwgODg4ODg4IEj0EIAASaQQgABJtBSABEnEcAyAAHAMg
+AA4FAAEOHQ4EAAEIDgUgABKAgQYgAQESgIUFIAIBDg4GIAEBEoCNBCABAQIFIAEBEj0IAAESgJER
+gJUFIAASgJkHIAIBDhKAmQi3elxWGTTgiQiJhF3NgIDMkQQAAAAABAEAAAADBhJRAwYSVQMGEhAC
 BggDBhEUBAAAElEEAAASVQUAAQESVQQAABIQAwAAAQQIABJRBAgAElUECAASEAgBAAgAAAAAAB4B
 AAEAVAIWV3JhcE5vbkV4Y2VwdGlvblRocm93cwEIAQACAAAAAAAoAQAjU1RfZDlkZmY1MWMxY2Vj
 NDkwOWI3MTIxYjQ0MGNkNWY5NGIAAAUBAAAAABYBABFDb3B5cmlnaHQgQCAgMjAyMAAASQEAGi5O
 RVRGcmFtZXdvcmssVmVyc2lvbj12NC43AQBUDhRGcmFtZXdvcmtEaXNwbGF5TmFtZRIuTkVUIEZy
-YW1ld29yayA0LjcAAAC0AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VS
-ZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGlj
-S2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJj
-ZVNldAIAAAAAAAAAAAAAAFBBRFBBRFC0AAAA+DIAAAAAAAAAAAAAEjMAAAAgAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAQzAAAAAAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACAA
-EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+YW1ld29yayA0LjcAALQAAADOyu++AQAAAJEAAABsU3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJl
+YWRlciwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNL
+ZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNl
+U2V0AgAAAAAAAAAAAAAAUEFEUEFEULQAAABMMgAAAAAAAAAAAABmMgAAACAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAWDIAAAAAAAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQ
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
 SAAAAFhAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
-AAAAvQTv/gAAAQAAAAEA7JiBHQAAAQDsmIEdPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
+AAAAvQTv/gAAAQAAAAEAVnCbHQAAAQBWcJsdPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
 AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
 AAAAAAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAA
 MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
 AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
 AABTAFQAXwBkADkAZABmAGYANQAxAGMAMQBjAGUAYwA0ADkAMAA5AGIANwAxADIAMQBiADQANAAw
 AGMAZAA1AGYAOQA0AGIAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
-NwA1ADUAMwAuADMAOQAxADQAOAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABT
+NwA1ADcAOQAuADIAOAA3ADUAOAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABT
 AFQAXwBkADkAZABmAGYANQAxAGMAMQBjAGUAYwA0ADkAMAA5AGIANwAxADIAMQBiADQANAAwAGMA
 ZAA1AGYAOQA0AGIALgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAA
 AEMAbwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADIAMAAAACoAAQABAEwAZQBnAGEAbABUAHIA
@@ -13380,15 +13900,15 @@ AG0AZQAAAFMAVABfAGQAOQBkAGYAZgA1ADEAYwAxAGMAZQBjADQAOQAwADkAYgA3ADEAMgAxAGIA
 NAA0ADAAYwBkADUAZgA5ADQAYgAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBl
 AAAAAABTAFQAXwBkADkAZABmAGYANQAxAGMAMQBjAGUAYwA0ADkAMAA5AGIANwAxADIAMQBiADQA
 NAAwAGMAZAA1AGYAOQA0AGIAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAx
-AC4AMAAuADcANQA1ADMALgAzADkAMQA0ADgAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYA
-ZQByAHMAaQBvAG4AAAAxAC4AMAAuADcANQA1ADMALgAzADkAMQA0ADgAAAAAAAAAAAAAAAAAAAAA
+AC4AMAAuADcANQA3ADkALgAyADgANwA1ADgAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYA
+ZQByAHMAaQBvAG4AAAAxAC4AMAAuADcANQA3ADkALgAyADgANwA1ADgAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAJDMAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAeDIAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -13434,6 +13954,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Size="174.666666666667,42.6666666666667"
           Id="Package\EST_DeleteStgTable"
           TopLeft="113.624998388812,126.399997838139" />
+        <NodeLayout
+          Size="260,42.6666666666667"
+          Id="Package\EST_InsuranceCompany_NullHundling"
+          TopLeft="307.999995492399,327.249994246662" />
         <NodeLayout
           Size="204,42.6666666666667"
           Id="Package\EST_MaxLastModifiedDate"
@@ -13544,10 +14068,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="260,42.6666666666667"
-          Id="Package\EST_InsuranceCompany_NullHundling"
-          TopLeft="307.999995492399,327.249994246662" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
           TopLeft="268.583331489312,310.233328265747">
@@ -13589,7 +14109,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package.EventHandlers[OnError]">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="144,42.6666666666667"
           Id="Package.EventHandlers[OnError]\EST_ErrorLog"
@@ -13629,7 +14149,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13657,25 +14179,25 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Id="Package\DFT_UberWriter\OLE DB_StgTable"
           TopLeft="726.643507900407,374.616659967999" />
         <NodeLayout
-          Size="246.666666666667,42.6666666666667"
-          Id="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany"
-          TopLeft="684.166656471789,240.444440156884" />
-        <NodeLayout
-          Size="210.666666666667,42.6666666666667"
-          Id="Package\DFT_UberWriter\Lookup_MarketSourceName"
-          TopLeft="23.8483795833239,230.093052236895" />
+          Size="213.333333333334,42.6666666666667"
+          Id="Package\DFT_UberWriter\DC_ReplaceNullwithDunatek"
+          TopLeft="362.291661268101,235.923606537821" />
         <NodeLayout
           Size="192,42.6666666666667"
           Id="Package\DFT_UberWriter\CS_BorrFirst&amp;LastName"
           TopLeft="361.874995203689,113.749997965992" />
         <NodeLayout
+          Size="210.666666666667,42.6666666666667"
+          Id="Package\DFT_UberWriter\Lookup_MarketSourceName"
+          TopLeft="23.8483795833239,230.093052236895" />
+        <NodeLayout
           Size="212,42.6666666666667"
           Id="Package\DFT_UberWriter\DC_NewLoansAuditColumns"
           TopLeft="744.791655568406,119.166664535801" />
         <NodeLayout
-          Size="213.333333333334,42.6666666666667"
-          Id="Package\DFT_UberWriter\DC_ReplaceNullwithDunatek"
-          TopLeft="362.291661268101,235.923606537821" />
+          Size="246.666666666667,42.6666666666667"
+          Id="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany"
+          TopLeft="684.166656471789,240.444440156884" />
         <NodeLayout
           Size="180,42.6666666666667"
           Id="Package\DFT_UberWriter\ADO NET_UberWriter"
@@ -13700,7 +14222,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="11.946920790305,5,96.3827734375,11.609375"
+              BoundingBox="11.9469207903052,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -13845,19 +14367,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\DFT_UberWriter\Lookup_MarketSourceName">
     <Properties>
       <Property>
@@ -13877,6 +14386,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DFT_UberWriter\Fuzzy_MortgageInsuranceCompany">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

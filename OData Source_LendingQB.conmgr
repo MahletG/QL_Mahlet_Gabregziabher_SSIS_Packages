@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:DelayValidation="True"
   DTS:ObjectName="OData Source_LendingQB"
   DTS:DTSID="{731AAA78-02B3-4EBB-87D9-F5B476942C49}"
   DTS:CreationName="ODATA">
@@ -11,11 +12,12 @@
     <ODataConnectionManager
       UserName="sharepoint@dunatk.com"
       Url="https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc"
-      ConnectionString="Service Document Url=https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;User ID=sharepoint@dunatk.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104"
+      ConnectionString="Service Document Url=https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;Cookie=&quot;SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjgsMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNDUzOWU4OWZAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfHNoYXJlcG9pbnRAZHVuYXRrLmNvbSwxMzI0NjA3NzMyNjAwMDAwMDAsMTMyNDIxNzU3MDQwMDAwMDAwLDEzMjQ2MTYzNzI2Mzk5MzA5MSwwLjAuMC4wLDQsODVkZGY3ZTktODA2OC00YmI2LTg5NzktNDQ3NjE0NDJlMzlhLCwsMjQ5MzdmOWYtMTAzZi0wMDAwLTUzNDYtNDJjMDlhOWFiZTllLDI0OTM3ZjlmLTEwM2YtMDAwMC01MzQ2LTQyYzA5YTlhYmU5ZSwsMCwwLDAsLCwsMjY1MDQ2Nzc0Mzk5OTk5OTk5OSwwLCxpTnd0dG0wYUxjWmQxdk5Dd1FnRmFyQ3B2TjdTdW45azFkSjRKcEN3Z2tDSFgyc0JlTWw4dk1UQmRGWXBkWUxIOVhEd1pXeWN5a3QwM0dGTmVIRmlYUkVST0x6b1R0NkxlbGhmcm85UEtVc0xZd3k3SW5jWFNFKzJIZTlXYnQ0VGlxZXBKRFZyUVhQVHdFT3ZOTG5YdW9UbEloZTM4S1I1SDMzNGhzRCtKS2JnM3RJTGMvaGN1V0hxY0plc0VSVXBaUDBadm9YMzlPbTFRNTNoMCs3TjRhVUt6WG8xdTZ0bGNxSi95a1NiQlRBM1lNL2FtaGN4TUxzOGNYNHJJclh6cUVxazF4L1pNVjlNRTdsOU4yTklDdHV2V2NkQk5IdENLMSt4MWYvWXJkTmZoeUllTlp4NFZRSUtMbkVjSzkrTHFHdlEzUFpINkJrcTlkMFFSa2hlUFE9PTwvU1A+&quot;;User ID=sharepoint@dunatk.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104"
       MicrosoftOnlineServicesAuth="True"
-      AuthType="MicrosoftOnlineService">
+      AuthType="MicrosoftOnlineService"
+      ConnectByProxy="False">
       <Password
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAACAAAAAAAQZgAAAAEAACAAAAB55yHZ358grluQGeMeFbmk7nxIPgqk+6t8ILId4fO/vQAAAAAOgAAAAAIAACAAAADa6+1q7ohoSKR3kMtC7EQjat7TCnpYmwPiVyq23vh01EAAAABcaodaBVuqzpuP4c5jRoOhJxUcAHyu67jQKMgWUQN5+ipnKFu8OpLpD14sdEB3wOgfmItdQa1gdOzJU1Qw70ZLQAAAAC1KfCksSzPK2HwmdtEHd/FQB1akj+wYs+t4lANW0QfqpX0OQc0hllbr8a3kTW9Y0KKAUXZtS11f5H4gAXEO/lU=</Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAACAAAAAAAQZgAAAAEAACAAAABgl+jDGeVLDoGZH/k36omL/cF6D2OJLluJ9JL7GtjupAAAAAAOgAAAAAIAACAAAAAvWQcJ5zHTYx4hrZLFNs3fbGDQMcESByVzKq2wFQWVy0AAAABEO0+gaJRnkVNFv2vn0nx+lABmsXLbcPLuwkAGmFeR5jgtjFNzPMIaHiqdptvZOMVID+opFxr1PGy8w6whZwoUQAAAAF4FcwAMEI1isNuKU0KdW+lnNrkJ/3blXkcEZmZizoUHjAV9hHIX/4DVXybOcGe1sjbF1B3F2kFt8mTlIe7LZkM=</Password>
     </ODataConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

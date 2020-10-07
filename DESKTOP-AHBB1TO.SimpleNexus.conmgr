@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:DelayValidation="True"
   DTS:ObjectName="DESKTOP-AHBB1TO.SimpleNexus"
   DTS:DTSID="{61508263-75FC-442B-A31E-240D3753AC1D}"
   DTS:CreationName="OLEDB">
@@ -10,7 +11,7 @@
       DTS:ConnectionString="Data Source=DESKTOP-AHBB1TO;Initial Catalog=SimpleNexus;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAACAAAAAAAQZgAAAAEAACAAAAB0wbYIOLjeM8v1Qanc1gc/HFBd2uvN3WO9xNCCwHJXjwAAAAAOgAAAAAIAACAAAACSk43YF4z61mDLUZgEx9Vnu0hvyqYJSubhRcKGi9qxooAAAADuWQddVOX1PIRUlugz5rKgbUOWh0hGkVDsqs+Bhk5aalOTWChctzXkmN+4FncHrXE1c4U5mc4Mf/7gaF9CAX22A0fSxpi+5m7Ze78hmlRUz+Hzpk6Nhmv0R0xuxy7hvUZKUxb8GgtlBLHbaxZAbQQjcO7gY7sQDvR2hga7iGIZYEAAAAAKzuPQShZxzMZrQhfh+ouprjg6dXwtTHG6YA2IAL18NPh9hu4vW3oRFzg4V5zLrHLEecPh4bZJO1hZZBR4xNH+</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeJiV2q8byUWfFc9doox32gAAAAACAAAAAAAQZgAAAAEAACAAAABKpHZOdgwFt+chw3Z44dmUJ4+8qgqbRLRgmBrls3TGqAAAAAAOgAAAAAIAACAAAADrLY1NuaOxZT9AvhitJPjl/GZtcXrJfzlYaxtdlFrr+4AAAABgdeTdxbDNp5EpzP4Z1pHw2MJz5mQ/HZKtctNROp4rOrd/QhKRJSA5q9gY+pGh4jLgi6a22vMJwCgW4miaHigNO+hxV1ir2o1yzqFkPufu+6oB5djMj2LbXrO5JuTA28GYzRnv9SFcMpodlRHpE2X1+cDqnYFSyATvFdR52PZgkkAAAAArpGk6YQKICNScdgxyKChlzpmVJP6OJgbEuVpwzbhwTsV8Rs1nsI4dlfQ1S2A45/DS/8DN2fX/BnF5VftgF+Yn</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
